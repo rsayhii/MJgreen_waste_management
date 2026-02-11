@@ -136,7 +136,16 @@
       rightAuthor="Editorial Team"
       rightMeta="MJ GREENS"
     />
-   
+    <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 mb-10">
+      <div class="relative group">
+        <input type="text" placeholder="Search articles..."
+               class="w-full pl-12 pr-28 py-3 bg-white border border-gray-200 rounded-full shadow-md focus:border-emerald-500 focus:ring-2 focus:ring-emerald-300 transition-all duration-300">
+        <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-gray-500 group-focus-within:text-emerald-600 transition-colors"></i>
+        <button class="absolute right-2 top-1/2 -translate-y-1/2 bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-full text-sm shadow-md transition-all duration-300 hover:scale-105">
+          Search
+        </button>
+      </div>
+    </section>
 
     <!-- Main Content -->
     <main class="py-12 md:py-16">
@@ -144,19 +153,6 @@
             <div class="flex flex-col lg:flex-row gap-10">
                 <!-- Blog Posts Section -->
                 <div class="lg:w-2/3">
-
-                 <!-- Recent Posts Title -->
-                    <div class="flex items-center justify-between mb-8">
-                        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 font-serif">Recent Articles</h2>
-                        <div class="flex items-center space-x-2">
-                            <span class="text-gray-500 text-sm">Sort by:</span>
-                            <select class="bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-sm focus:border-emerald-500 focus:ring-1 focus:ring-emerald-200">
-                                <option>Latest</option>
-                                <option>Most Popular</option>
-                                <option>Trending</option>
-                            </select>
-                        </div>
-                    </div>
                     <!-- Featured Post -->
                     <div class="mb-12 animate-fadeInUp">
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg blog-card">
@@ -205,7 +201,18 @@
                         </div>
                     </div>
 
-                   
+                    <!-- Recent Posts Title -->
+                    <div class="flex items-center justify-between mb-8">
+                        <h2 class="text-2xl md:text-3xl font-bold text-gray-900 font-serif">Recent Articles</h2>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-gray-500 text-sm">Sort by:</span>
+                            <select class="bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-sm focus:border-emerald-500 focus:ring-1 focus:ring-emerald-200">
+                                <option>Latest</option>
+                                <option>Most Popular</option>
+                                <option>Trending</option>
+                            </select>
+                        </div>
+                    </div>
 
                     <!-- Blog Posts Grid -->
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -375,16 +382,36 @@
                     </div>
 
                     <!-- Load More Button -->
-                    <!-- <div class="text-center mt-12">
+                    <div class="text-center mt-12">
                         <button class="px-8 py-3 bg-white border border-emerald-600 text-emerald-600 hover:bg-emerald-50 rounded-xl font-medium transition-colors">
                             <i class="fas fa-sync-alt mr-2"></i> Load More Articles
                         </button>
-                    </div> -->
+                    </div>
                 </div>
 
                 <!-- Sidebar -->
                 <div class="lg:w-1/3">
-                    
+                    <!-- About Card -->
+                    <div class="bg-white rounded-2xl shadow-lg p-6 mb-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4 font-serif">About Our Blog</h3>
+                        <p class="text-gray-600 mb-6">
+                            Welcome to MJ GREENS Blog, where we explore sustainable living, environmental innovation, and green technology. Our mission is to inspire positive change through knowledge and practical solutions.
+                        </p>
+                        <div class="flex items-center space-x-4">
+                            <div class="flex-1">
+                                <div class="text-3xl font-bold text-emerald-600">120+</div>
+                                <div class="text-sm text-gray-500">Articles Published</div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="text-3xl font-bold text-emerald-600">45K+</div>
+                                <div class="text-sm text-gray-500">Monthly Readers</div>
+                            </div>
+                            <div class="flex-1">
+                                <div class="text-3xl font-bold text-emerald-600">18</div>
+                                <div class="text-sm text-gray-500">Expert Writers</div>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- Categories -->
                     <div class="bg-white rounded-2xl shadow-lg p-6 mb-8">
@@ -470,7 +497,7 @@
                     </div>
 
                     <!-- Newsletter Subscription -->
-                    <!-- <div class="bg-gradient-to-br from-emerald-500 to-green-600 rounded-2xl shadow-lg p-6">
+                    <div class="bg-gradient-to-br from-emerald-500 to-green-600 rounded-2xl shadow-lg p-6">
                         <h3 class="text-xl font-bold text-white mb-4 font-serif">Stay Updated</h3>
                         <p class="text-emerald-100 mb-6">
                             Subscribe to our newsletter for the latest articles, tips, and insights on sustainable living.
@@ -485,7 +512,7 @@
                         <p class="text-emerald-100 text-xs mt-4 text-center">
                             No spam. Unsubscribe anytime.
                         </p>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>

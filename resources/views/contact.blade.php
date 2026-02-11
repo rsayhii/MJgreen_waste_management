@@ -125,30 +125,21 @@
     }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body>
 
-<!-- HERO -->
-<section class="relative overflow-hidden bg-gradient-to-br from-green-50 via-white to-lime-50 py-6 md:py-8">
-  <div class="max-w-6xl mx-auto px-6 relative z-10 text-center animate-fade-in">
-    <span class="inline-block px-4 py-2 rounded-full bg-green-light text-green-dark font-medium mb-6 animate-slide-up">
-      <i class="fas fa-leaf mr-2"></i>Connect with us
-    </span>
-    
-    <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
-      Get in <span class="text-green-dark">Touch</span>
-    </h1>
-    
-    <p class="text-gray-700 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
-      Questions, partnerships, or ideas — we'd love to hear from you. Let's build a sustainable future together.
-    </p>
-    
-    <div class="flex justify-center space-x-4">
-      <div class="w-3 h-3 rounded-full bg-green-dark pulse"></div>
-      <div class="w-3 h-3 rounded-full bg-accent pulse" style="animation-delay: 0.2s"></div>
-      <div class="w-3 h-3 rounded-full bg-leaf-green pulse" style="animation-delay: 0.4s"></div>
-    </div>
-  </div>
-</section>
+<x-hero 
+  title="Get in Touch"
+  subtitle="Questions, partnerships, or ideas — we’d love to hear from you. Let’s build a sustainable future together."
+  bg="https://images.pexels.com/photos/7042926/pexels-photo-7042926.jpeg"
+  leftImage="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=200&auto=format&fit=crop"
+  leftTitle="Schedule a Call"
+  leftText="Connect with our team to explore solutions for your organization."
+  leftLinkHref="#"
+  leftLinkLabel="Book Now →"
+  rightQuote="The team is responsive and thoughtful. Our collaboration has been seamless from day one."
+  rightAuthor="Priya"
+  rightMeta="Sustainability Lead"
+/>
 
 <!-- CONTACT SECTION -->
 <section class="max-w-6xl mx-auto px-2 py-16 md:py-24">
@@ -173,9 +164,9 @@
             <div>
               <h3 class="font-semibold text-lg mb-1">Our Location</h3>
               <p class="text-gray-600">
-97/B (1/2), First Floor, 31st Cross,<br> Jayanagar
-7th Block, Banglore - 560070
-</p>
+              97/B (1/2), First Floor, 31st Cross,<br> Jayanagar
+              7th Block, Banglore - 560070
+              </p>
             </div>
           </div>
         </div>
@@ -301,7 +292,7 @@
 
 <!-- MAP SECTION -->
 <section class="relative w-full h-[500px] mt-10 mb-10">
-  <div class="absolute inset-0 map-overlay z-10"></div>
+  <div class="absolute inset-0  z-10"></div>
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.130258301979!2d77.58989067541183!3d12.928080090862533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670e5ee1d3b%3A0x3c4c5e2f92b0bbd3!2sJayanagar%2C%20Bengaluru%2C%20Karnataka%20560070!5e0!3m2!1sen!2sin!4v1707279000000!5m2!1sen!2sin"
     class="w-full h-full border-0 rounded-3xl shadow-custom-lg"
@@ -337,9 +328,7 @@
   </div>
 </section>
 
-<footer class="text-center py-8 text-gray-500 text-sm">
-  <p>© 2023 MJGREENS. All rights reserved. Committed to a sustainable future.</p>
-</footer>
+<x-footer />
 
 </body>
 </html>

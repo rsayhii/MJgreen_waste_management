@@ -6,9 +6,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 //Aboutus route
-Route::get('/aboutus', function () {
+Route::get('/about-us', function () {
     return view('aboutus');
-})->name('aboutus');
+})->name('about-us');
 
 //Services route
 Route::get('/services', function () {
@@ -35,15 +35,6 @@ Route::get('/gallery', function () {
     return view('gallery');
 })->name('gallery');    
 
-//Gallery2 route
-Route::get('/gallery2', function () {
-    return view('gallery2');
-})->name('gallery2');    
-
-//Gallery3 route    
-Route::get('/gallery3', function () {
-    return view('gallery3');
-})->name('gallery3');
 
 //Certificate route
 Route::get('/certification', function () {    

@@ -44,38 +44,20 @@
 
 </style>
 </head>
-<body class="bg-white">
-{{-----------------------------------------Services hero section start----------------------------------------}}
-<!-- services hero section -->
-<section class="relative w-full h-[260px] md:h-[320px] lg:h-[380px] overflow-hidden">
-
-  <!-- Background Image -->
-  <div class="absolute inset-0 bg-cover bg-center"
-       style="background-image:url('https://images.pexels.com/photos/19517566/pexels-photo-19517566.jpeg');">
-  </div>
-
-  <!-- Dark Green Overlay -->
-  <div class="absolute inset-0 bg-green-900/15"></div>
-
-  <!-- Centered Content (empty as requested) -->
-  <div class="relative z-10 h-full flex items-center justify-center">
-  </div>
-
-  <!-- Bottom Green Strip -->
-  <div class="absolute bottom-0 left-0 w-full bg-green-600 py-3 overflow-hidden">
-    <div class="whitespace-nowrap flex marquee">
-      <div class="px-8 text-white font-semibold tracking-wider text-sm">
-        GREEN ENERGY * WATER CONSERVATION * CLEAN AIR * ECO FARMING * ORGANIC FARMING *
-      </div>
-      <div class="px-8 text-white font-semibold tracking-wider text-sm">
-        GREEN ENERGY * WATER CONSERVATION * CLEAN AIR * ECO FARMING * ORGANIC FARMING *
-      </div>
-    </div>
-  </div>
-
-</section>
-<!-- services hero section end -->
-{{-----------------------------------------Services hero section end----------------------------------------}}
+<body>
+<x-hero 
+  title="Our Services"
+  subtitle="Innovative, reliable environmental solutions for communities and businesses — from waste management to eco infrastructure."
+  bg="https://images.unsplash.com/photo-1715940309860-585403114687?q=80&w=1170&auto=format&fit=crop"
+  leftImage="https://images.unsplash.com/photo-1604186838309-c6715f0d3e6c?auto=format&fit=crop&w=200&q=80"
+  leftTitle="Smart Waste Solutions"
+  leftText="Efficient collection, sorting, and recycling systems tailored to your needs."
+  leftLinkHref="#"
+  leftLinkLabel="Explore →"
+  rightQuote="Partnering with MJ GREENS helped us reduce costs and improve sustainability metrics across the board."
+  rightAuthor="Operations Lead"
+  rightMeta="Municipal Services"
+/>
 
 {{-----------------------------------------Services  section Start----------------------------------------}}
 <!-- Services Section Start -->
@@ -436,10 +418,7 @@ The categories are initially categorized into 20 groupings, then compacted and s
 </section>
 <!-- Environmental Facts Section End -->
 
-{{-----------------------------------------Environmental Facts Section END----------------------------------------}}
-
-
-
+<x-footer />
 
 </body>
 </html>

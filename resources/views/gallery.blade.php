@@ -63,7 +63,21 @@
 }
 </style>
 </head>
-<body class="bg-gray-50">
+<body>
+
+<x-hero
+  title="Our Gallery"
+  subtitle="Explore our latest journeys and beautiful destinations captured through our lens."
+  bg="https://images.unsplash.com/photo-1715940309860-585403114687?q=80&w=1200&auto=format&fit=crop"
+  leftImage="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=200&auto=format&fit=crop"
+  leftTitle="Featured Collection"
+  leftText="A curated selection from recent projects and field visits."
+  leftLinkHref="#"
+  leftLinkLabel="View Set →"
+  rightQuote="The visuals capture the spirit of our mission—authentic and inspiring."
+  rightAuthor="MJ Greens"
+  rightMeta="Team"
+/>
 
 <!-- =========================
    FEATURED PHOTOS GRID
@@ -235,6 +249,8 @@ if (collageContainer) {
   });
 }
 </script>
+
+<x-footer />
 
 </body>
 </html>

@@ -20,13 +20,10 @@
             background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80');
             background-size: cover;
             background-position: center;
+
         }
 
          /* who we are Section */ 
-         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;500&display=swap');
-        
-        body { font-family: 'Inter', sans-serif; }
-        h2 { font-family: 'Plus Jakarta Sans', sans-serif; }
 
         .badge-green {
             background-color: #7ab335;
@@ -38,37 +35,21 @@
         /**/
     </style>
 </head>
-<body class="bg-gray-100">
-{{----------------------------------------- aboutus hero section start----------------------------------------}}
-
-<section class="relative about-bg mt-24 mb-24 min-h-[250px] md:min-h-[340px] flex items-center">
-
-    <div class="container mx-auto px-6 lg:px-20 py-16">
-        <div class="flex flex-col md:flex-row items-center">
-            
-            <!-- Left Content -->
-            <div class="md:w-1/2 text-white mb-10 md:mb-0">
-                <h2 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
-                    About Josie Farms
-                </h2>
-                <p class="text-gray-200 text-sm md:text-base max-w-md leading-relaxed">
-                    Unlocking the secrets of sustainable agriculture dictumst pede lorem sollicitudin suspendisse. 
-                    We combine traditional wisdom with modern innovation to cultivate a greener future.
-                </p>
-            </div>
-
-            <!-- Right Image -->
-            {{-- <div class="md:w-1/2 flex justify-center md:justify-end">
-                <img src="https://dkkit.rometheme.pro/diligent/wp-content/uploads/sites/100/2024/03/VVJT84U.png" 
-                     alt="Josie Farms Worker" 
-                     class="w-72 md:w-96 lg:w-[200px] h-auto object-contain">
-            </div> --}}
-
-        </div>
-    </div>
-</section>
-
-{{----------------------------------------- aboutus hero section end----------------------------------------}}
+<body >
+<main class="flex-1">
+<x-hero 
+  title="About Josie Farms"
+  subtitle="Unlocking the secrets of sustainable agriculture dictumst pede lorem sollicitudin suspendisse. We combine traditional wisdom with modern innovation to cultivate a greener future."
+  bg="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80"
+  leftImage="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=200"
+  leftTitle="Tree Planting Program"
+  leftText="For every project, we contribute to reforestation efforts across the region."
+  leftLinkHref="#"
+  leftLinkLabel="Read More →"
+  rightQuote="I appreciate how transparent Greenset is about their sourcing and environmental impact. I feel like I’m part of something bigger every time I contribute here."
+  rightAuthor="Daniel"
+  rightMeta="NGO Volunteer, Surabaya"
+/>
 
 
 {{----------------------------------------- who we are section start----------------------------------------}}
@@ -348,7 +329,7 @@
 
 {{-----------------------------------------Sustainability Section Section Start ----------------------------------------}}
 <!-- Sustainability Section Start -->
-<section class="w-full h-[30px]">
+<section class="w-full">
 
   <div class="grid lg:grid-cols-2">
 
@@ -456,5 +437,7 @@
             console.log('Section view monitoring active');
         });
     </script>
+    </main>
+    <x-footer />
 </body>
 </html>

@@ -35,24 +35,7 @@
             animation: progressBar 2s ease-in-out forwards;
         }
         
-        /* Custom Scrollbar */
-        ::-webkit-scrollbar {
-            width: 6px;
-        }
         
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1;
-            border-radius: 4px;
-        }
-        
-        ::-webkit-scrollbar-thumb {
-            background: #66bb6a;
-            border-radius: 4px;
-        }
-        
-        ::-webkit-scrollbar-thumb:hover {
-            background: #4caf50;
-        }
         
         /* Leaf Decoration */
         .leaf-decoration {
@@ -106,16 +89,21 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
-    <!-- Header -->
-    <div class="bg-gradient-to-r from-green-50 to-emerald-50 border-b border-green-100 py-10">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h1 class="text-3xl md:text-4xl font-bold text-green-800 mb-3">Join MJ GREENS</h1>
-                <p class="text-lg text-green-600 max-w-2xl mx-auto">Start your journey with us and contribute to a greener, more sustainable future</p>
-            </div>
-        </div>
-    </div>
+<body>
+   
+    <x-hero
+      title="Join MJ GREENS"
+      subtitle="Start your journey with us and contribute to a greener, more sustainable future."
+      bg="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop"
+      leftImage="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=200&auto=format&fit=crop"
+      leftTitle="Open Roles"
+      leftText="We’re hiring across engineering, operations, and community programs."
+      leftLinkHref="#"
+      leftLinkLabel="View Jobs →"
+      rightQuote="Purpose-driven work with real-world impact on communities and the environment."
+      rightAuthor="HR Team"
+      rightMeta="MJ GREENS"
+    />
 
     <!-- Leaf Decorations -->
     <div class="leaf-decoration top-8 right-8 text-7xl text-green-400 transform rotate-12">
@@ -864,5 +852,6 @@
             });
         });
     </script>
+    <x-footer />
 </body>
 </html>

@@ -15,61 +15,6 @@
         .glass-card { backdrop-filter: blur(12px); background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); }
         .parallax-bg { transform: scale(1.1); }
 
-        /* NAVBAR SCROLL STYLES */
-        nav {
-            transition: all 0.3s ease;
-        }
-
-        nav.scrolled {
-            position: fixed;
-            top: -100px;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            background: white;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            border-bottom-left-radius: 2rem;
-            border-bottom-right-radius: 2rem;
-            animation: slideDown 0.4s ease forwards;
-            padding-top: 1.5rem;
-            padding-bottom: 1.5rem;
-        }
-
-        @keyframes slideDown {
-            from {
-                top: -100px;
-                opacity: 0;
-            }
-            to {
-                top: 0;
-                opacity: 1;
-            }
-        }
-
-        nav.scrolled .logo-text,
-        nav.scrolled ul li a,
-        nav.scrolled .menu-icon {
-            color: #1a1a1a !important;
-        }
-
-        nav.scrolled .logo-circle {
-            background: rgba(0, 0, 0, 0.1);
-            border-color: rgba(0, 0, 0, 0.2);
-        }
-
-        nav.scrolled .logo-dot {
-            background: #1a1a1a;
-        }
-
-        nav.scrolled .contact-btn {
-            background: #1a1a1a;
-            color: #d4ff3d;
-        }
-
-        nav.scrolled .contact-btn:hover {
-            background: #000;
-        }
-
         /* Smooth Accordion Transition */
         .faq-content {
             max-height: 0;
@@ -106,20 +51,6 @@
         .wm-dark-panel { background-color: #062d24; }
         .wm-green-accent { color: #a3cc39; }
         .wm-bg-accent { background-color: #a3cc39; }
-
-        /* footer */
-        .vs-footer-bg {
-            background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000');
-            background-size: cover;
-            background-position: center;
-        }
-        .vs-overlay {
-            background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(10,10,10,0.95) 100%);
-        }
-        .vs-rounded-top {
-            border-top-left-radius: 60px;
-            border-top-right-radius: 60px;
-        }
 
         /* Sustainability Section and Footer Section */  
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
@@ -158,7 +89,7 @@
         }
     </style>
 </head>
-<body class="p-4 md:p-6">
+<body class="p-6">
     <section class="hero-container relative h-[90vh] min-h-[700px] w-full bg-slate-900 shadow-2xl">
         
         <div class="parallax-bg absolute inset-0 z-0">
@@ -168,36 +99,9 @@
             <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60"></div>
         </div>
 
-        <nav id="mainNav" class="relative z-20 flex items-center justify-between px-8 py-8 md:px-12">
-            <div class="flex items-center gap-2 text-white">
-                <div class="logo-circle w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/30">
-                    <div class="logo-dot w-3 h-3 bg-white rounded-full"></div>
-                </div>
-                <span class="logo-text text-xl font-bold tracking-tight">Greenset</span>
-            </div>
-            
-            <ul class="hidden md:flex items-center gap-8 text-white/90 text-sm font-medium">
-                <li><a href="#" class="hover:text-white transition-colors">Home</a></li>
-                <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
-                <li><a href="#" class="hover:text-white transition-colors">Our Impact</a></li>
-                <li><a href="#" class="hover:text-white transition-colors">Projects</a></li>
-                <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
-            </ul>
-
-            <button class="contact-btn bg-[#d4ff3d] hover:bg-[#c1eb30] text-black px-6 py-2.5 rounded-full flex items-center gap-2 text-sm font-bold transition-transform active:scale-95">
-                Contact Us 
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-            </button>
-
-            <!-- Mobile Menu Icon -->
-            <button class="menu-icon md:hidden text-white">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                </svg>
-            </button>
-        </nav>
+        <div class="absolute top-6 left-6 right-6">
+        <x-header />
+    </div>
 
         <div class="relative z-10 flex flex-col items-center justify-center text-center px-6 mt-12 md:mt-20">
             <h1 class="hero-title text-5xl md:text-7xl font-bold text-white leading-tight">
@@ -252,7 +156,7 @@
         </h2>
     </div>
 
-    <section class="relative h-[90vh] min-h-[700px] w-full">
+    <section class="relative w-full">
         
         <div class="flex items-center justify-between mb-12">
             <h2 class="text-3xl md:text-4xl font-bold text-[#1a1a1a]">Services we provide</h2>
@@ -724,7 +628,7 @@
         </div>
     </section>
 
-    <section class="hero-gradient relative overflow-visible rounded-t-[3rem]">
+    <section class="hero-gradient relative overflow-visible rounded-[3rem]">
         <div class="container mx-auto px-6 lg:px-20 pt-20 pb-0 flex flex-col md:flex-row items-center justify-between relative">
             
             <div class="md:w-1/2 mb-12 md:mb-20 z-10">
@@ -751,93 +655,9 @@
         </div>
     </section>
 
-    <footer class="bg-custom-dark pt-16 pb-8 border-t border-green-900 rounded-b-[3rem]">
-        <div class="container mx-auto px-6 lg:px-20">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
-                
-                <div> 
-                    <div class="flex items-center gap-2 mb-6">
-                        <div class="w-10 h-10 bg-accent rounded-full flex items-center justify-center">
-                            <img src="https://dkkit.rometheme.pro/diligent/wp-content/uploads/sites/100/2024/03/VVJT84U.png" alt="Worker" class="w-full max-w-md object-contain">
-                        </div>
-                        <div>
-                            <span class="block text-2xl font-bold italic text-white">Diligent</span>
-                            <span class="block text-[10px] uppercase tracking-widest text-gray-400">Waste Management & Recycling</span>
-                        </div>
-                    </div>
-                    <p class="text-xs text-gray-400 leading-relaxed mb-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
-                    </p>
-                    <div class="flex gap-3">
-                        <a href="#" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-
-                <div>
-                    <h4 class="text-lg text-white font-semibold mb-6">Quick Links</h4>
-                    <ul class="text-xs space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Our Company</li>
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Services</li>
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Vacancies</li>
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Inconterms</li>
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Track Your Shipment</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="text-lg text-white font-semibold mb-6">Services</h4>
-                    <ul class="text-xs space-y-3 text-gray-400">
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Residential Waste Collection</li>
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Commercial Waste Management</li>
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Specialized Waste Disposal</li>
-                        <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Recycling Services</li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="text-lg text-white font-semibold mb-6">Newsletter Signup</h4>
-                    <form class="flex flex-col gap-3">
-                        <div class="flex flex-col md:flex-row border border-gray-600 rounded-full overflow-hidden">
-                            <input type="email" placeholder="Enter Your Email" class="bg-transparent px-4 py-2 text-sm w-full outline-none">
-                            <button type="submit" class="bg-accent text-black font-bold px-4 py-2 text-xs uppercase hover:bg-white whitespace-nowrap rounded-full">
-                                Sign Up Now
-                            </button>
-                        </div>
-                    </form>
-                    <p class="text-[10px] text-gray-500 mt-4 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </footer>
+    <x-footer />
 
     <script>
-        // ========================================
-        // STICKY NAVBAR SCROLL ANIMATION
-        // ========================================
-        let lastScrollTop = 0;
-        const navbar = document.getElementById('mainNav');
-        const scrollThreshold = 100; // Pixels to scroll before triggering
-
-        window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-            // Only trigger when scrolling down AND past threshold
-            if (currentScroll > scrollThreshold && currentScroll > lastScrollTop) {
-                navbar.classList.add('scrolled');
-            } 
-            // Remove sticky when scrolling up OR at top
-            else if (currentScroll < lastScrollTop || currentScroll <= scrollThreshold) {
-                navbar.classList.remove('scrolled');
-            }
-
-            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-        }, false);
-
         // ========================================
         // HERO SECTION ANIMATIONS
         // ========================================

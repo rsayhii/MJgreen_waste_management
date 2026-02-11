@@ -35,7 +35,21 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 py-24">
+<body>
+    
+    <x-hero
+      title="Certifications"
+      subtitle="Recognitions that reflect our commitment to quality, innovation, and sustainable impact."
+      bg="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop"
+      leftImage="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=200&auto=format&fit=crop"
+      leftTitle="ISO 9001:2015"
+      leftText="International quality management standards adhered across processes."
+      leftLinkHref="#"
+      leftLinkLabel="Learn More →"
+      rightQuote="Being recognized by DPIIT and Startup India motivates us to push the boundaries of sustainable innovation."
+      rightAuthor="MJ Greens"
+      rightMeta="Accredited"
+    />
 
     <section class="container mx-auto px-6 lg:px-20">
         
@@ -64,7 +78,7 @@
                     <div class="absolute -inset-4 bg-gradient-to-tr from-green-100 to-blue-50 rounded-[2rem] blur-2xl opacity-50 group-hover:opacity-80 transition duration-500"></div>
                     
                     <div class="relative glass-card premium-shadow rounded-[1.5rem] p-4 md:p-8 transform transition duration-500 hover:-translate-y-3 hover:rotate-1">
-                        <img src="https://mjgreens.in/wp-content/uploads/2022/01/certificate.png" 
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=800&auto=format&fit=crop" 
                              alt="Registration Certificate" 
                              class="w-full h-auto rounded-lg shadow-inner grayscale-[20%] group-hover:grayscale-0 transition duration-500">
                         
@@ -145,5 +159,6 @@
             observer.observe(el);
         });
     </script>
+    <x-footer />
 </body>
 </html>
