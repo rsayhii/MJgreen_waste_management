@@ -105,10 +105,10 @@
 
         <div class="relative z-10 flex flex-col items-center justify-center text-center px-6 mt-12 md:mt-20">
             <h1 class="hero-title text-5xl md:text-7xl font-bold text-white leading-tight">
-                Sustainable Living<br>Starts Here
+                Cultivating The Green Diversity<br>By Making Greener INDIA
             </h1>
             <p class="hero-subtitle text-white/80 max-w-xl mt-6 text-sm md:text-base leading-relaxed">
-                Discover eco-friendly essentials designed to help you reduce waste, live mindfully, and make a positive impact on the planet—without compromising on style or quality.
+                MJGREENS is one of the top Waste Management Companies in India. We provide sustainable and responsible waste management solutions for large generators of waste, such as corporate parks, universities, houses, etc.
             </p>
             
             <button class="hero-btn mt-10 bg-white text-black px-8 py-4 rounded-full flex items-center gap-3 font-bold group transition-all hover:pr-10">
@@ -142,6 +142,34 @@
                         <h4 class="text-white font-bold text-sm">Daniel</h4>
                         <p class="text-white/40 text-[10px] uppercase tracking-wider">NGO Volunteer, Surabaya</p>
                     </div>
+
+                    <div class="flex items-center gap-4 group">
+                        <div class="w-[3em] h-[3em] rounded-full border border-white/20 
+                                    flex items-center justify-center 
+                                    transition-colors group-hover:bg-white/10">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                            </svg>
+                        </div>
+                        <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
+                            Dignified and safe employment
+                        </span>
+                    </div>
+
+                    <!-- <div class="flex items-center gap-4 group">
+                        <div class="w-[3em] h-[3em] rounded-full border border-white/20 
+                                    flex items-center justify-center 
+                                    transition-colors group-hover:bg-white/10">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
+                            Professional Team
+                        </span>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -159,7 +187,7 @@
     <section class="relative w-full">
         
         <div class="flex items-center justify-between mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-[#1a1a1a]">Services we provide</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-[#1a1a1a]">What we do ?</h2>
             
             <div class="flex gap-3">
                 <button class="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 transition-colors group">
@@ -184,9 +212,9 @@
                          alt="Arch Design" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a1a] mb-2">Arch Design</h3>
+                <h3 class="text-xl font-bold text-[#1a1a1a] mb-2">Waste management for MNC's</h3>
                 <p class="text-gray-500 text-sm leading-relaxed max-w-[240px]">
-                    From initial concept development and schematic design
+                    We provide waste management services to companies or multinational corporations
                 </p>
             </div>
 
@@ -197,9 +225,9 @@
                          alt="Interior Design" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a1a] mb-2">Interior Design</h3>
+                <h3 class="text-xl font-bold text-[#1a1a1a] mb-2">Waste management for Parks</h3>
                 <p class="text-gray-500 text-sm leading-relaxed max-w-[240px]">
-                    Creating cohesive interior spaces that reflect your style
+                    We provide waste management services for tech parks
                 </p>
             </div>
 
@@ -210,9 +238,9 @@
                          alt="Urban Planning" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a1a] mb-2">Urban Planning</h3>
+                <h3 class="text-xl font-bold text-[#1a1a1a] mb-2">For residential communities</h3>
                 <p class="text-gray-500 text-sm leading-relaxed max-w-[240px]">
-                    Designing the spaces between buildings & outdoors
+                    We provide waste management services for Residential Communities
                 </p>
             </div>
 
@@ -223,9 +251,9 @@
                          alt="Project Manage" 
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 </div>
-                <h3 class="text-xl font-bold text-[#1a1a1a] mb-2">Project Manage</h3>
+                <h3 class="text-xl font-bold text-[#1a1a1a] mb-2">Municipal solid waste</h3>
                 <p class="text-gray-500 text-sm leading-relaxed max-w-[240px]">
-                    Overseeing & control the entire construction process
+                    Our END-TO-END SOLID WASTE SOLUTIONS INCLUDE comprehensive waste management
                 </p>
             </div>
 
@@ -348,7 +376,7 @@
                         <img src="https://i.pravatar.cc/100?u=2" class="w-12 h-12 rounded-full border-4 border-white object-cover" alt="User">
                         <img src="https://i.pravatar.cc/100?u=3" class="w-12 h-12 rounded-full border-4 border-white object-cover" alt="User">
                     </div>
-                    <span class="text-3xl font-extrabold text-[#062d24]">2.3M+</span>
+                    <span class="text-3xl font-extrabold text-[#062d24]">2.3k+</span>
                 </div>
             </div>
         </div>
@@ -364,8 +392,12 @@
         <div class="wm-dark-panel w-full pt-[13em] pb-10 px-6 rounded-[40px] relative z-10">
             <div class="max-w-7xl mx-auto">
                 <h2 class="text-white text-3xl md:text-4xl font-bold text-center mb-5 max-w-3xl mx-auto leading-tight">
-                    We Have Experience In Handling All Kinds Of Waste!
+                    OUR STRENGTHS
                 </h2>
+
+                <p class="text-white/80 text-center mb-12 max-w-4xl mx-auto">
+                    With wide experience and proven expertise in major infrastructure projects, MJgreens is the best Waste Management Company in the country.
+                </p>
 
                 <div class="grid grid-cols-2 lg:grid-cols-4 gap-12" id="wm-feature-row">
 
@@ -379,7 +411,7 @@
                             </svg>
                         </div>
                         <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
-                            Business Waste
+                            Domain expertise
                         </span>
                     </div>
 
@@ -393,7 +425,7 @@
                             </svg>
                         </div>
                         <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
-                            Commercial Waste
+                            Fully Compliant
                         </span>
                     </div>
 
@@ -407,7 +439,7 @@
                             </svg>
                         </div>
                         <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
-                            Specialized Waste
+                            Transparency
                         </span>
                     </div>
 
@@ -422,7 +454,7 @@
                             </svg>
                         </div>
                         <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
-                            Industrial Materials
+                            Multiple waste streams
                         </span>
                     </div>
 
@@ -719,24 +751,24 @@
         // ========================================
         const sliderData = [
             {
-                text: "Renew Home Is Working With Leading Brands There Making There Everything From Thermostats To Water Of The Heaters, Integrating New Energy. Energy To Savings Made Easy With Nirusolar. E Making There Everything From Thermostats To Water Of The Heaters, Integrating.",
-                name: "John Alex",
-                role: "Business Owner",
-                avatar: "https://i.pravatar.cc/150?u=john",
+                text: "MJGREENS has transformed our corporate park's waste management. Their professional team, domain expertise, and transparent process have made us fully compliant and helped us handle multiple waste streams efficiently. A truly reliable partner for sustainable solutions.",
+                name: "Ravi Sharma",
+                role: "Facility Manager, Tech Park",
+                avatar: "https://i.pravatar.cc/150?u=ravi",
                 image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1200"
             },
             {
-                text: "The transition to smart renewable energy has cut our operational costs by 40%. The integration with our existing thermostats was seamless and the energy dashboard provides incredible real-time insights for our facility managers.",
-                name: "Sarah Jenkins",
-                role: "Operations Director",
-                avatar: "https://i.pravatar.cc/150?u=sarah",
+                text: "Our residential community has greatly benefited from MJGREENS' end-to-end solid waste solutions. They've not only made our community cleaner but have also ensured dignified and safe employment for their staff. It's a win-win for everyone.",
+                name: "Priya Desai",
+                role: "RWA President",
+                avatar: "https://i.pravatar.cc/150?u=priya",
                 image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1200"
             },
             {
-                text: "Nirusolar provided a comprehensive solution for our sustainable housing project. From water heaters to smart grid management, their technology is world-class and has set a new standard for our future developments.",
-                name: "Michael Chen",
-                role: "Property Developer",
-                avatar: "https://i.pravatar.cc/150?u=mike",
+                text: "With their deep domain expertise in EPR and reverse logistics, MJGREENS has been instrumental in helping us achieve our circular economy goals. Their consultation is top-notch, providing transparent and compliant solutions for post-consumer waste.",
+                name: "Anjali Mehta",
+                role: "Head of Sustainability, FMCG Corp",
+                avatar: "https://i.pravatar.cc/150?u=anjali",
                 image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1200"
             }
         ];

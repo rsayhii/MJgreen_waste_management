@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Josie Farms</title>
+    <title>About MJ Greens - Waste Management Company</title>
     <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -38,17 +38,16 @@
 <body >
 <main class="flex-1">
 <x-hero 
-  title="About Josie Farms"
-  subtitle="Unlocking the secrets of sustainable agriculture dictumst pede lorem sollicitudin suspendisse. We combine traditional wisdom with modern innovation to cultivate a greener future."
-  bg="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80"
-  leftImage="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=200"
-  leftTitle="Tree Planting Program"
-  leftText="For every project, we contribute to reforestation efforts across the region."
+  title="About MJ Greens"
+  subtitle="Cultivating The Green Diversity By Making Greener INDIA. We provide sustainable and responsible waste management solutions for large generators of waste."
+  bg="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80"
+  leftImage="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=200"
+  leftTitle="Waste Management Excellence"
+  leftText="We offer sustainable and responsible waste management solutions for corporate parks, universities, and residential communities."
   leftLinkHref="#"
-  leftLinkLabel="Read More →"
-  rightQuote="I appreciate how transparent Greenset is about their sourcing and environmental impact. I feel like I’m part of something bigger every time I contribute here."
-  rightAuthor="Daniel"
-  rightMeta="NGO Volunteer, Surabaya"
+  leftLinkLabel="Our Services →"
+  rightQuote="MJ Greens is the best Waste Management Company in the country with proven expertise in major infrastructure projects."
+  rightAuthor="MJ Greens Team"
 />
 
 
@@ -82,23 +81,23 @@
                 </div>
                 
                 <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-6">
-                    Rooted in Tradition, Growing for Tomorrow
+                    Leading Waste Management Solutions for a Greener India
                 </h2>
                 
                 <p class="text-gray-700 font-semibold mb-4 leading-relaxed">
-                    Sapien class est sagittis risus natoque eleifend. Nostra senectus arcu potenti vel congue sagittis.
+                    MJGREENS is one of the top Waste Management Companies in India, offering sustainable and responsible solutions for large generators of waste.
                 </p>
                 
                 <p class="text-gray-500 text-sm leading-relaxed mb-6">
-                    Facilisis ultrices dolor suspendisse habitasse vehicula venenatis tempor et. Justo morbi iaculis ac platea felis cursus cubilia pede quis ligula leo. Quis est sapien vel nisl elit torquent nascetur sollicitudin diam turpis.
+                    With wide experience and proven expertise in major infrastructure projects, we are recognized as one of the best waste management companies in the country. We provide services for corporate parks, universities, residential communities, and more.
                 </p>
                 
                 <p class="text-gray-500 text-sm leading-relaxed mb-8">
-                    Eget ad donec faucibus neque nec morbi mus maximus nostra pulvinar aliquet. Nulla faucibus luctus mus integer pellentesque libero.
+                    Our mission is to cultivate green diversity by making India greener through innovative and legally compliant waste management practices, including Extended Producer Responsibility (EPR) for plastics and e-waste.
                 </p>
                 
                 <button class="btn-yellow hover:bg-yellow-500 text-black font-bold py-3 px-8 rounded-full transition duration-300 text-sm shadow-md">
-                    More About Us
+                    Learn More
                 </button>
             </div>
 
@@ -115,57 +114,54 @@
       
       <!-- Feature 1 -->
       <div class="flex-1 flex gap-4 p-6 items-start">
-        <div class="w-14 h-14 bg-green-600 rounded-full flex items-center justify-center">
+        <div class="w-[8.5rem] h-14 bg-green-600 rounded-full flex items-center justify-center">
           <!-- Leaf SVG -->
           <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 21c7 0 14-7 14-14C12 7 5 14 5 21z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h6m-6 4h6m-6 4h6m-6 4h6m-6 8h6"/>
           </svg>
         </div>
         <div>
           <h3 class="text-lg font-bold text-gray-900 mb-2">
-            Fresh Organic Produce
+            Waste Management Services
           </h3>
           <p class="text-gray-600 text-sm leading-relaxed">
-            We grow and deliver farm-fresh organic produce using sustainable methods.
+            We offer sustainable and responsible waste management solutions for large generators of waste.
           </p>
         </div>
       </div>
 
       <!-- Feature 2 -->
       <div class="flex-1 flex gap-4 p-6 items-start">
-        <div class="w-14 h-14 bg-green-600 rounded-full flex items-center justify-center">
+        <div class="w-[9.5rem] h-14 bg-green-600 rounded-full flex items-center justify-center">
           <!-- Tractor SVG -->
           <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <circle cx="7" cy="17" r="2" />
-            <circle cx="17" cy="17" r="3" />
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5 17V9h6l3 4h3v4" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
           </svg>
         </div>
         <div>
           <h3 class="text-lg font-bold text-gray-900 mb-2">
-            Modern Farming
+            Extended Producer Responsibility
           </h3>
           <p class="text-gray-600 text-sm leading-relaxed">
-            Combining advanced technology with traditional knowledge for better yields.
+            Reverse logistics for the collection of post-consumer plastics & e-waste that is transparent & legally compliant.
           </p>
         </div>
       </div>
 
       <!-- Feature 3 -->
       <div class="flex-1 flex gap-4 p-6 items-start">
-        <div class="w-14 h-14 bg-green-600 rounded-full flex items-center justify-center">
+        <div class="w-[9.5rem] h-14 bg-green-600 rounded-full flex items-center justify-center">
           <!-- Globe SVG -->
           <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="9"/>
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h18M12 3c3 4 3 14 0 18M12 3c-3 4-3 14 0 18"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
           </svg>
         </div>
         <div>
           <h3 class="text-lg font-bold text-gray-900 mb-2">
-            Eco-Friendly Practices
+            Consultation
           </h3>
           <p class="text-gray-600 text-sm leading-relaxed">
-            Our processes protect the environment while producing healthy crops.
+            We provide consulting and auditing services related to circular economy, resource recovery, and reverse logistics.
           </p>
         </div>
       </div>
@@ -188,7 +184,7 @@
         How It Works
       </p>
       <h2 class="text-3xl md:text-2xl lg:text-3xl font-extrabold text-gray-900 leading-tight">
-        Effortless Waste Management in 3 Simple Steps
+        Our End-to-End Solid Waste Solutions
       </h2>
     </div>
 
@@ -199,9 +195,9 @@
       <div>
         <!-- Main Image -->
         <img
-          src="https://images.unsplash.com/photo-1604186838309-c6715f0d3e6c?auto=format&fit=crop&w=900&q=80"
+          src="https://plus.unsplash.com/premium_photo-1663091022660-8fa0fd744fed?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHx3YXN0ZSUyMG1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D"
           class="w-full h-[420px] object-cover rounded-3xl shadow-md"
-          alt="Waste collection"
+          alt="Recycling bins and waste management"
         >
 
         <!-- Text Block -->
@@ -261,10 +257,10 @@
         <div class="flex justify-between items-start border-b pb-6">
           <div>
             <h3 class="font-bold text-lg text-gray-900">
-              Schedule Pickup
+              Collection
             </h3>
             <p class="text-gray-600 text-sm mt-1">
-              Book a convenient waste collection time online.
+              Efficient and timely collection of waste from various sources.
             </p>
           </div>
           <span class="text-5xl font-extrabold text-gray-200">
@@ -276,10 +272,10 @@
         <div class="flex justify-between items-start border-b pb-6">
           <div>
             <h3 class="font-bold text-lg text-gray-900">
-              Waste Collection
+              Segregation
             </h3>
             <p class="text-gray-600 text-sm mt-1">
-              Our team collects and transports your waste safely.
+              Proper segregation of waste at the source to ensure effective recycling and disposal.
             </p>
           </div>
           <span class="text-5xl font-extrabold text-gray-200">
@@ -291,10 +287,10 @@
         <div class="flex justify-between items-start pb-6">
           <div>
             <h3 class="font-bold text-lg text-gray-900">
-              Recycling & Processing
+              Recycling & Disposal
             </h3>
             <p class="text-gray-600 text-sm mt-1">
-              Waste is sorted and recycled using eco-friendly methods.
+              Waste is recycled and disposed of in an environmentally friendly manner.
             </p>
           </div>
           <span class="text-5xl font-extrabold text-gray-200">
@@ -305,7 +301,7 @@
         <!-- Bottom Image with Badge -->
         <div class="relative">
           <img
-            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80"
+            src="https://images.unsplash.com/photo-1764154739233-659b2681d162?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             class="w-full h-[300px] object-cover rounded-3xl shadow-md"
             alt="Recycling"
           >
@@ -343,12 +339,12 @@
 
       <!-- Heading -->
       <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6">
-        Our Commitment to a Greener Future
+        Our Commitment to Sustainability
       </h2>
 
       <!-- Paragraph -->
       <p class="text-gray-600 mb-10 max-w-xl">
-        We focus on sustainable waste processing, reducing environmental impact, and building eco-friendly infrastructure for a cleaner tomorrow.
+        We are dedicated to providing sustainable and responsible waste management solutions that contribute to a cleaner and greener environment.
       </p>
 
       <!-- Progress Bars -->
@@ -357,33 +353,33 @@
         <!-- Progress 1 -->
         <div>
           <div class="flex justify-between mb-2">
-            <span class="font-medium text-gray-800">Waste Recycled</span>
-            <span class="text-gray-600">85%</span>
+            <span class="font-medium text-gray-800">Waste Diversion from Landfill</span>
+            <span class="text-gray-600">90%</span>
           </div>
           <div class="w-full bg-gray-200 rounded-full h-3">
-            <div class="bg-green-600 h-3 rounded-full" style="width:85%"></div>
+            <div class="bg-green-600 h-3 rounded-full" style="width:90%"></div>
           </div>
         </div>
 
         <!-- Progress 2 -->
         <div>
           <div class="flex justify-between mb-2">
-            <span class="font-medium text-gray-800">Carbon Footprint Reduction</span>
-            <span class="text-gray-600">70%</span>
+            <span class="font-medium text-gray-800">Recycling Rate</span>
+            <span class="text-gray-600">85%</span>
           </div>
           <div class="w-full bg-gray-200 rounded-full h-3">
-            <div class="bg-green-500 h-3 rounded-full" style="width:70%"></div>
+            <div class="bg-green-500 h-3 rounded-full" style="width:85%"></div>
           </div>
         </div>
 
         <!-- Progress 3 -->
         <div>
           <div class="flex justify-between mb-2">
-            <span class="font-medium text-gray-800">Eco-Friendly Projects Completed</span>
-            <span class="text-gray-600">90%</span>
+            <span class="font-medium text-gray-800">Client Satisfaction</span>
+            <span class="text-gray-600">98%</span>
           </div>
           <div class="w-full bg-gray-200 rounded-full h-3">
-            <div class="bg-green-700 h-3 rounded-full" style="width:90%"></div>
+            <div class="bg-green-700 h-3 rounded-full" style="width:98%"></div>
           </div>
         </div>
 

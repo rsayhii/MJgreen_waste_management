@@ -84,11 +84,10 @@
       <div class="relative bg-white rounded-2xl shadow-lg p-8 pt-14 text-center hover:shadow-xl transition">
         <div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-white shadow-md rounded-xl w-16 h-16 flex items-center justify-center">
           <svg class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-            <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M9 3h6l1 2H8l1-2z"></path>
-              <rect x="6" y="5" width="12" height="16" rx="2"></rect>
-              <line x1="10" y1="9" x2="10" y2="17"></line>
-              <line x1="14" y1="9" x2="14" y2="17"></line>
+            <g stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 10l9-7 9 7"></path>
+              <path d="M5 10v9h14v-9"></path>
+              <path d="M12 14v5"></path>
             </g>
           </svg>
         </div>
@@ -105,11 +104,12 @@
       <div class="relative bg-white rounded-2xl shadow-lg p-8 pt-14 text-center hover:shadow-xl transition">
         <div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-white shadow-md rounded-xl w-16 h-16 flex items-center justify-center">
           <svg class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-            <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M3 7h18l-2 4H5L3 7z"></path>
-              <rect x="5" y="11" width="14" height="7" rx="2"></rect>
-              <circle cx="8" cy="20" r="1"></circle>
-              <circle cx="16" cy="20" r="1"></circle>
+            <g stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 5l5 5"></path>
+              <path d="M13 6l3-3 4 4-3 3"></path>
+              <path d="M4 8h7v10H4z"></path>
+              <path d="M4 12h7"></path>
+              <path d="M4 16h7"></path>
             </g>
           </svg>
         </div>
@@ -127,11 +127,11 @@ As part of the holistic waste management solutions offered by MJGREENS, the comp
       <div class="relative bg-white rounded-2xl shadow-lg p-8 pt-14 text-center hover:shadow-xl transition">
         <div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-white shadow-md rounded-xl w-16 h-16 flex items-center justify-center">
           <svg class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-            <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M5 10a7 7 0 0 1 11-4"></path>
-              <path d="M16 6l2-2"></path>
-              <path d="M19 14a7 7 0 0 1-11 4"></path>
-              <path d="M8 18l-2 2"></path>
+            <g stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 4c4.418 0 8 3.582 8 8h-2.5"></path>
+              <path d="M17.5 12l2.5 2.5"></path>
+              <path d="M12 20c-4.418 0-8-3.582-8-8h2.5"></path>
+              <path d="M6.5 12L4 9.5"></path>
             </g>
           </svg>
         </div>
@@ -149,11 +149,11 @@ The categories are initially categorized into 20 groupings, then compacted and s
       <div class="relative bg-white rounded-2xl shadow-lg p-8 pt-14 text-center hover:shadow-xl transition">
         <div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-white shadow-md rounded-xl w-16 h-16 flex items-center justify-center">
           <svg class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-            <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M9 3h6l1 2H8l1-2z"></path>
-              <rect x="6" y="5" width="12" height="16" rx="2"></rect>
-              <line x1="10" y1="9" x2="10" y2="17"></line>
-              <line x1="14" y1="9" x2="14" y2="17"></line>
+            <g stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 13h9v5H3z"></path>
+              <path d="M12 13h4l3 3v2h-7z"></path>
+              <circle cx="6" cy="18" r="1.5"></circle>
+              <circle cx="18" cy="18" r="1.5"></circle>
             </g>
           </svg>
         </div>
@@ -172,11 +172,9 @@ The categories are initially categorized into 20 groupings, then compacted and s
       <div class="relative bg-white rounded-2xl shadow-lg p-8 pt-14 text-center hover:shadow-xl transition">
         <div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-white shadow-md rounded-xl w-16 h-16 flex items-center justify-center">
           <svg class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-            <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M3 7h18l-2 4H5L3 7z"></path>
-              <rect x="5" y="11" width="14" height="7" rx="2"></rect>
-              <circle cx="8" cy="20" r="1"></circle>
-              <circle cx="16" cy="20" r="1"></circle>
+            <g stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5c-4 2-7 5-7 9 0 3.5 3 5.5 7 5.5s7-2 7-5.5c0-4-3-7-7-9z"></path>
+              <path d="M12 8c-2 2-4 3.5-5 6"></path>
             </g>
           </svg>
         </div>
@@ -195,11 +193,10 @@ The categories are initially categorized into 20 groupings, then compacted and s
       <div class="relative bg-white rounded-2xl shadow-lg p-8 pt-14 text-center hover:shadow-xl transition">
         <div class="absolute -top-8 left-1/2 -translate-x-1/2 bg-white shadow-md rounded-xl w-16 h-16 flex items-center justify-center">
           <svg class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
-            <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M5 10a7 7 0 0 1 11-4"></path>
-              <path d="M16 6l2-2"></path>
-              <path d="M19 14a7 7 0 0 1-11 4"></path>
-              <path d="M8 18l-2 2"></path>
+            <g stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 20h10"></path>
+              <path d="M9 14l6 6"></path>
+              <path d="M14 9l-2 2 6 6 2-2z"></path>
             </g>
           </svg>
         </div>
