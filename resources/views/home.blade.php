@@ -529,7 +529,7 @@
                 <div class="faq-item bg-[#f8faf9] rounded-xl border border-transparent transition-all">
                     <button class="faq-trigger w-full flex items-center justify-between p-6 text-left group">
                         <span class="text-[#0a2b22] font-semibold md:text-lg">
-                            A. What are the conditions for terminating my service?
+                           A. What types of waste does MJGreen collect?
                         </span>
                         <div class="w-10 h-10 flex items-center justify-center border-l border-gray-200 ml-4 group-hover:bg-gray-100 rounded-r-xl -mr-6 -my-6 transition-colors">
                             <span class="toggle-icon text-2xl text-gray-400 transition-transform">+</span>
@@ -537,15 +537,14 @@
                     </button>
                     <div class="faq-content px-6">
                         <p class="text-gray-500 text-sm leading-relaxed">
-                            You can terminate your service by providing a 30-day notice via your dashboard or by contacting our support team directly. Specific terms regarding early termination fees are outlined in your initial service agreement.
-                        </p>
+MJGreen Waste Management collects a wide range of waste, including household waste, commercial waste, recyclable materials, organic waste, and selected industrial waste. Our goal is to ensure safe, eco-friendly, and responsible disposal for every client.                        </p>
                     </div>
                 </div>
 
                 <div class="faq-item bg-[#f8faf9] rounded-xl border border-transparent transition-all">
                     <button class="faq-trigger w-full flex items-center justify-between p-6 text-left group">
                         <span class="text-[#0a2b22] font-semibold md:text-lg">
-                            B. What is the best way for me to transfer my share?
+                            B. How can I schedule a waste pickup?
                         </span>
                         <div class="w-10 h-10 flex items-center justify-center border-l border-gray-200 ml-4 group-hover:bg-gray-100 rounded-r-xl -mr-6 -my-6 transition-colors">
                             <span class="toggle-icon text-2xl text-gray-400 transition-transform">+</span>
@@ -553,15 +552,14 @@
                     </button>
                     <div class="faq-content px-6">
                         <p class="text-gray-500 text-sm leading-relaxed">
-                            To transfer shares, please navigate to the 'Security' section of your account and initiate a Transfer Request. You will need the recipient's verified account ID and email address to complete the process.
-                        </p>
+You can schedule a pickup easily through your MJGreen dashboard, by calling our support team, or by submitting a request through our website contact form. Our team will confirm the pickup time based on your location and service plan.                        </p>
                     </div>
                 </div>
 
                 <div class="faq-item bg-[#f8faf9] rounded-xl border border-transparent transition-all">
                     <button class="faq-trigger w-full flex items-center justify-between p-6 text-left group">
                         <span class="text-[#0a2b22] font-semibold md:text-lg">
-                            C. What kind of service do you provide?
+                            C. Do you provide recycling services?
                         </span>
                         <div class="w-10 h-10 flex items-center justify-center border-l border-gray-200 ml-4 group-hover:bg-gray-100 rounded-r-xl -mr-6 -my-6 transition-colors">
                             <span class="toggle-icon text-2xl text-gray-400 transition-transform">+</span>
@@ -569,15 +567,14 @@
                     </button>
                     <div class="faq-content px-6">
                         <p class="text-gray-500 text-sm leading-relaxed">
-                            We provide comprehensive waste management, sustainable recycling processing, and specialized industrial material handling for both residential and commercial sectors.
-                        </p>
+Yes, MJGreen offers dedicated recycling services for paper, plastic, metal, glass, and other recyclable materials. We sort and process waste responsibly to reduce landfill impact and support a greener environment.                        </p>
                     </div>
                 </div>
 
                 <div class="faq-item bg-[#f8faf9] rounded-xl border border-transparent transition-all">
                     <button class="faq-trigger w-full flex items-center justify-between p-6 text-left group">
                         <span class="text-[#0a2b22] font-semibold md:text-lg">
-                            D. What exactly are late fees?
+                            D. What areas does MJGreen serve?
                         </span>
                         <div class="w-10 h-10 flex items-center justify-center border-l border-gray-200 ml-4 group-hover:bg-gray-100 rounded-r-xl -mr-6 -my-6 transition-colors">
                             <span class="toggle-icon text-2xl text-gray-400 transition-transform">+</span>
@@ -585,8 +582,7 @@
                     </button>
                     <div class="faq-content px-6">
                         <p class="text-gray-500 text-sm leading-relaxed">
-                            Late fees are applied when an invoice is not settled within 5 business days of the due date. The standard fee is 5% of the outstanding balance or a flat $25, whichever is greater.
-                        </p>
+MJGreen Waste Management provides services across selected residential, commercial, and industrial areas. You can check service availability by entering your location on our website or contacting our support team.                        </p>
                     </div>
                 </div>
             </div>
@@ -595,7 +591,7 @@
                 <div class="faq-item bg-[#f8faf9] rounded-xl border border-transparent transition-all">
                     <button class="faq-trigger w-full flex items-center justify-between p-6 text-left group">
                         <span class="text-[#0a2b22] font-semibold md:text-lg">
-                            A. What is the distinction in recycling processing?
+                            A. Can I change my waste collection schedule?
                         </span>
                         <div class="w-10 h-10 flex items-center justify-center border-l border-gray-200 ml-4 group-hover:bg-gray-100 rounded-r-xl -mr-6 -my-6 transition-colors">
                             <span class="toggle-icon text-2xl text-gray-400 transition-transform">+</span>
@@ -603,15 +599,14 @@
                     </button>
                     <div class="faq-content px-6">
                         <p class="text-gray-500 text-sm leading-relaxed">
-                            We utilize advanced sorting technologies to distinguish between organic matter, plastics, and metals, ensuring that a higher percentage of collected waste is diverted from landfills.
-                        </p>
+Yes, you can modify your pickup schedule at any time through your dashboard or by contacting our support team. We will adjust the service based on your availability and plan.                        </p>
                     </div>
                 </div>
 
                 <div class="faq-item bg-[#f8faf9] rounded-xl border border-transparent transition-all">
                     <button class="faq-trigger w-full flex items-center justify-between p-6 text-left group">
                         <span class="text-[#0a2b22] font-semibold md:text-lg">
-                            B. What is the procedure for changing my address?
+                            B. What should I do with hazardous waste?
                         </span>
                         <div class="w-10 h-10 flex items-center justify-center border-l border-gray-200 ml-4 group-hover:bg-gray-100 rounded-r-xl -mr-6 -my-6 transition-colors">
                             <span class="toggle-icon text-2xl text-gray-400 transition-transform">+</span>
@@ -619,15 +614,14 @@
                     </button>
                     <div class="faq-content px-6">
                         <p class="text-gray-500 text-sm leading-relaxed">
-                            Log in to your account, go to 'Account Settings', and select 'Address Information'. Updates are processed instantly, but billing cycles may take one full period to reflect the change.
-                        </p>
+Hazardous waste should be kept separate from regular trash. MJGreen provides special collection services for approved hazardous materials. Please contact our support team to schedule a safe and compliant pickup.                        </p>
                     </div>
                 </div>
 
                 <div class="faq-item bg-[#f8faf9] rounded-xl border border-transparent transition-all">
                     <button class="faq-trigger w-full flex items-center justify-between p-6 text-left group">
                         <span class="text-[#0a2b22] font-semibold md:text-lg">
-                            C. What size container is right for my business?
+                            C. Do you offer services for businesses and industries?
                         </span>
                         <div class="w-10 h-10 flex items-center justify-center border-l border-gray-200 ml-4 group-hover:bg-gray-100 rounded-r-xl -mr-6 -my-6 transition-colors">
                             <span class="toggle-icon text-2xl text-gray-400 transition-transform">+</span>
@@ -635,15 +629,14 @@
                     </button>
                     <div class="faq-content px-6">
                         <p class="text-gray-500 text-sm leading-relaxed">
-                            We offer containers from 2-yard bins to 40-yard roll-offs. Our team can conduct a waste audit to recommend the most cost-effective size based on your weekly output.
-                        </p>
+Yes, MJGreen provides customized waste management solutions for offices, restaurants, factories, and other commercial or industrial clients. We design plans based on waste volume, type, and frequency.                        </p>
                     </div>
                 </div>
 
                 <div class="faq-item bg-[#f8faf9] rounded-xl border border-transparent transition-all">
                     <button class="faq-trigger w-full flex items-center justify-between p-6 text-left group">
                         <span class="text-[#0a2b22] font-semibold md:text-lg">
-                            D. How often is business trash picked up?
+                            D. How does MJGreen ensure eco-friendly waste disposal?
                         </span>
                         <div class="w-10 h-10 flex items-center justify-center border-l border-gray-200 ml-4 group-hover:bg-gray-100 rounded-r-xl -mr-6 -my-6 transition-colors">
                             <span class="toggle-icon text-2xl text-gray-400 transition-transform">+</span>
@@ -651,8 +644,7 @@
                     </button>
                     <div class="faq-content px-6">
                         <p class="text-gray-500 text-sm leading-relaxed">
-                            Pickup frequency is customizable. Most businesses opt for 1-3 times per week, though daily pickups are available for high-volume commercial centers.
-                        </p>
+We follow responsible waste segregation, recycling, composting, and safe disposal practices. Our processes are designed to reduce landfill waste and promote sustainability in every step of waste management.                        </p>
                     </div>
                 </div>
             </div>
@@ -665,11 +657,11 @@
             
             <div class="md:w-1/2 mb-12 md:mb-20 z-10">
                 <h1 class="text-4xl md:text-5xl text-white font-bold leading-tight mb-6">
-                    Take the First Step Towards <br> Sustainability
+                    Smart Waste Solutions for a <br> Sustainable Tomorrow
+
                 </h1>
                 <p class="text-gray-300 text-sm md:text-base max-w-md mb-8 leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                   Partner with MJGreen to manage your waste responsibly. From regular pickups to advanced recycling services, we make it easy to keep your surroundings clean and green.
                 </p>
                 <button class="bg-accent hover:bg-white text-black font-semibold py-3 px-8 rounded-full transition duration-300">
                     Contact Now

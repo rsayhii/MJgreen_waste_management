@@ -28,33 +28,67 @@
                     <span class="block text-2xl font-bold italic text-white">MJ Greens Infra Private Limited</span>
                 </div>
                 <p class="text-xs text-gray-400 leading-relaxed mb-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
-                </p>
+MJ Greens Infra Private Limited provides smart, sustainable waste management and infrastructure solutions. We help homes, businesses, and industries maintain cleaner environments through responsible collection, recycling, and eco-friendly practices.                </p>
                 <div class="flex gap-3">
-                    <a href="#" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/mjgreensinfra#" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/Mjgreens1" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCOTe4oCLPQ4XAYdusj9rq3w" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/mjgreens_/" class="bg-accent w-8 h-8 flex items-center justify-center text-black text-sm hover:bg-white transition rounded-full"> <i class="fab fa-instagram"></i></a>
                 </div>
             </div>
 
             <div>
                 <h4 class="text-lg text-white font-semibold mb-6">Quick Links</h4>
                 <ul class="text-xs space-y-3 text-gray-400">
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Our Company</li>
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Services</li>
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Vacancies</li>
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Inconterms</li>
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Track Your Shipment</li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i>
+                      <a href="{{ route('home') }}" class="hover:text-accent">Home</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                      <a href="{{ route('about-us') }}" class="hover:text-accent">About Us</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                      <a href="{{ route('services') }}" class="hover:text-accent">Services</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                      <a href="{{ route('career') }}" class="hover:text-accent">Career</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                      <a href="{{ route('gallery') }}" class="hover:text-accent">Gallery</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                      <a href="{{ route('certification') }}" class="hover:text-accent">Certification</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                      <a href="{{ route('blog') }}" class="hover:text-accent">Blog</a>
+                    </li>
+
+
                 </ul>
             </div>
 
             <div>
                 <h4 class="text-lg text-white font-semibold mb-6">Services</h4>
                 <ul class="text-xs space-y-3 text-gray-400">
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Residential Waste Collection</li>
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Commercial Waste Management</li>
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Specialized Waste Disposal</li>
-                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> Recycling Services</li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                     <a href="{{ route('services') }}" class="hover:text-accent">Door To Door</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                    <a href="{{ route('services') }}" class="hover:text-accent">C&D</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                    <a href="{{ route('services') }}" class="hover:text-accent">MRF</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                    <a href="{{ route('services') }}" class="hover:text-accent">Secondary Collection and Transportation</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                    <a href="{{ route('services') }}" class="hover:text-accent">Bio mining/ Bio remediation</a>
+                    </li>
+                    <li class="flex items-center gap-2 hover:text-accent cursor-pointer"><i class="fas fa-chevron-right text-[8px] text-accent"></i> 
+                    <a href="{{ route('services') }}" class="hover:text-accent">Mechanical Sweeping</a>
+                    </li>
+                    
+
                 </ul>
             </div>
 
@@ -69,7 +103,7 @@
                     </div>
                 </form>
                 <p class="text-[10px] text-gray-500 mt-4 leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.
+                   Subscribe to our newsletter to receive the latest updates on waste management tips, eco-friendly practices, service announcements, and sustainability news from MJ Greens Infra Private Limited.
                 </p>
             </div>
 

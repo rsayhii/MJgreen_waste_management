@@ -411,7 +411,7 @@
           <p class="text-sm leading-relaxed mb-2">
             We transform waste into sustainable resources through innovative recycling systems.
           </p>
-          <a href="#" class="inline-flex items-center text-sm font-semibold">
+          <a href="{{ route('about-us') }}" class="inline-flex items-center text-sm font-semibold">
             Learn More →
           </a>
         </div>
