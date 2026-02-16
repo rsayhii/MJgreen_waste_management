@@ -128,7 +128,7 @@
       subtitle="Discover articles, tips, and stories about sustainable living, environmental innovation, and creating a greener future."
       bg="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop"
       leftImage="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=200&auto=format&fit=crop"
-      leftTitle="Editor’s Pick"
+      leftTitle="Editor's Pick"
       leftText="Weekly highlight on sustainability breakthroughs and practical tips."
       leftLinkHref="#"
       leftLinkLabel="Read Now →"
@@ -162,8 +162,8 @@
                         <div class="bg-white rounded-2xl overflow-hidden shadow-lg blog-card">
                             <div class="md:flex">
                                 <div class="md:w-2/5 relative">
-                                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                                         alt="Urban Farming"
+                                    <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
+                                         alt="Smart Waste Management"
                                          class="w-full h-64 md:h-full object-cover">
                                     <div class="absolute top-4 left-4">
                                         <span class="px-3 py-1 bg-emerald-600 text-white text-xs font-semibold rounded-full">
@@ -174,17 +174,17 @@
                                 <div class="md:w-3/5 p-8">
                                     <div class="flex items-center space-x-4 mb-4">
                                         <span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full">
-                                            Urban Farming
+                                            Smart Solutions
                                         </span>
                                         <span class="text-gray-500 text-sm">
                                             <i class="far fa-clock mr-1"></i> 8 min read
                                         </span>
                                     </div>
                                     <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 font-serif">
-                                        Transforming Cities with Rooftop Gardens
+                                        Revolutionizing Waste Management: MJ Greens' Smart Solutions
                                     </h2>
                                     <p class="text-gray-600 mb-6">
-                                        Discover how urban agriculture is revolutionizing city landscapes, reducing carbon footprints, and creating sustainable food sources in metropolitan areas.
+                                        Discover how MJ Greens Infra Private Limited is implementing IoT and smart technology in waste collection and disposal to create cleaner, more efficient urban environments.
                                     </p>
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center space-x-3">
@@ -192,11 +192,11 @@
                                                 MJ
                                             </div>
                                             <div>
-                                                <p class="font-medium text-gray-900">Michael Jordan</p>
-                                                <p class="text-sm text-gray-500">Sustainability Expert</p>
+                                                <p class="font-medium text-gray-900">MJ GREENS</p>
+                                                <p class="text-sm text-gray-500">Infrastructure Expert</p>
                                             </div>
                                         </div>
-                                        <a href="#" class="text-emerald-600 hover:text-emerald-700 font-medium flex items-center">
+                                        <a href="{{ route('blog.revolutionizing-waste-management') }}" class="text-emerald-600 hover:text-emerald-700 font-medium flex items-center">
                                             Read More <i class="fas fa-arrow-right ml-2"></i>
                                         </a>
                                     </div>
@@ -212,38 +212,38 @@
                         <!-- Post 1 -->
                         <article class="bg-white rounded-xl overflow-hidden shadow-md blog-card">
                             <div class="relative overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" 
-                                     alt="Renewable Energy"
+                                <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                                     alt="Sustainable Infrastructure"
                                      class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105">
                                 <div class="absolute top-4 right-4">
                                     <span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-full tag">
-                                        Energy
+                                        Infrastructure
                                     </span>
                                 </div>
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center space-x-4 mb-3">
                                     <span class="text-gray-500 text-xs">
-                                        <i class="far fa-calendar mr-1"></i> Mar 15, 2024
+                                        <i class="far fa-calendar mr-1"></i> Feb 15, 2026
                                     </span>
                                     <span class="text-gray-500 text-xs">
                                         <i class="far fa-clock mr-1"></i> 6 min read
                                     </span>
                                 </div>
                                 <h3 class="text-xl font-bold text-gray-900 mb-3 font-serif">
-                                    The Future of Solar Energy in Residential Areas
+                                    Sustainable Infrastructure: Building a Cleaner Tomorrow
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">
-                                    Exploring how solar panel technology is becoming more accessible for homeowners and its impact on energy consumption.
+                                    MJ Greens' approach to eco-friendly infrastructure and its impact on the environment through sustainable practices.
                                 </p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex items-center space-x-2">
                                         <div class="w-8 h-8 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center text-white text-xs font-semibold">
-                                            SJ
+                                            MJ
                                         </div>
-                                        <span class="text-sm text-gray-700">Sarah Johnson</span>
+                                        <span class="text-sm text-gray-700">MJ Team</span>
                                     </div>
-                                    <a href="#" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
+                                    <a href="{{ route('blog.sustainable-infrastructure') }}" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
                                         Read <i class="fas fa-arrow-right ml-1"></i>
                                     </a>
                                 </div>
@@ -253,38 +253,38 @@
                         <!-- Post 2 -->
                         <article class="bg-white rounded-xl overflow-hidden shadow-md blog-card">
                             <div class="relative overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                                     alt="Zero Waste"
+                                <img src="https://images.pexels.com/photos/1549528/pexels-photo-1549528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                                     alt="Responsible Recycling"
                                      class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105">
                                 <div class="absolute top-4 right-4">
                                     <span class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full tag">
-                                        Lifestyle
+                                        Recycling
                                     </span>
                                 </div>
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center space-x-4 mb-3">
                                     <span class="text-gray-500 text-xs">
-                                        <i class="far fa-calendar mr-1"></i> Mar 10, 2024
+                                        <i class="far fa-calendar mr-1"></i> Feb 10, 2026
                                     </span>
                                     <span class="text-gray-500 text-xs">
                                         <i class="far fa-clock mr-1"></i> 10 min read
                                     </span>
                                 </div>
                                 <h3 class="text-xl font-bold text-gray-900 mb-3 font-serif">
-                                    Zero Waste Living: A Practical Guide for Beginners
+                                    The Power of Responsible Recycling for Businesses
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">
-                                    Step-by-step guide to reducing household waste, with actionable tips and sustainable product recommendations.
+                                    Why industries and businesses should partner with MJ Greens for efficient recycling and responsible waste management.
                                 </p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex items-center space-x-2">
                                         <div class="w-8 h-8 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center text-white text-xs font-semibold">
-                                            AR
+                                            MJ
                                         </div>
-                                        <span class="text-sm text-gray-700">Alex Rivera</span>
+                                        <span class="text-sm text-gray-700">MJ Expert</span>
                                     </div>
-                                    <a href="#" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
+                                    <a href="{{ route('blog.responsible-recycling-for-businesses') }}" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
                                         Read <i class="fas fa-arrow-right ml-1"></i>
                                     </a>
                                 </div>
@@ -294,38 +294,38 @@
                         <!-- Post 3 -->
                         <article class="bg-white rounded-xl overflow-hidden shadow-md blog-card">
                             <div class="relative overflow-hidden">
-                                <img src="https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                                     alt="Sustainable Architecture"
+                                <img src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                                     alt="Eco-Friendly Home"
                                      class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105">
                                 <div class="absolute top-4 right-4">
                                     <span class="px-3 py-1 bg-amber-100 text-amber-700 text-xs font-semibold rounded-full tag">
-                                        Architecture
+                                        Lifestyle
                                     </span>
                                 </div>
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center space-x-4 mb-3">
                                     <span class="text-gray-500 text-xs">
-                                        <i class="far fa-calendar mr-1"></i> Mar 5, 2024
+                                        <i class="far fa-calendar mr-1"></i> Feb 05, 2026
                                     </span>
                                     <span class="text-gray-500 text-xs">
                                         <i class="far fa-clock mr-1"></i> 12 min read
                                     </span>
                                 </div>
                                 <h3 class="text-xl font-bold text-gray-900 mb-3 font-serif">
-                                    Eco-Friendly Building Materials Revolution
+                                    Eco-Friendly Practices for a Greener Home
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">
-                                    Innovative materials that are changing construction industry, from bamboo to recycled plastics and sustainable concrete.
+                                    Practical tips from MJ Greens for residential waste reduction and responsible disposal in every household.
                                 </p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex items-center space-x-2">
                                         <div class="w-8 h-8 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center text-white text-xs font-semibold">
                                             MJ
                                         </div>
-                                        <span class="text-sm text-gray-700">Michael Jordan</span>
+                                        <span class="text-sm text-gray-700">MJ Greens</span>
                                     </div>
-                                    <a href="#" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
+                                    <a href="{{ route('blog.eco-friendly-home-practices') }}" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
                                         Read <i class="fas fa-arrow-right ml-1"></i>
                                     </a>
                                 </div>
@@ -335,38 +335,38 @@
                         <!-- Post 4 -->
                         <article class="bg-white rounded-xl overflow-hidden shadow-md blog-card">
                             <div class="relative overflow-hidden">
-                                <img src="https://images.pexels.com/photos/5712211/pexels-photo-5712211.jpeg" 
-                                     alt="Water Conservation"
+                                <img src="https://images.pexels.com/photos/2990644/pexels-photo-2990644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                                     alt="Sustainable Collection"
                                      class="w-full h-48 object-cover transition-transform duration-500 hover:scale-105">
                                 <div class="absolute top-4 right-4">
                                     <span class="px-3 py-1 bg-cyan-100 text-cyan-700 text-xs font-semibold rounded-full tag">
-                                        Conservation
+                                        Collection
                                     </span>
                                 </div>
                             </div>
                             <div class="p-6">
                                 <div class="flex items-center space-x-4 mb-3">
                                     <span class="text-gray-500 text-xs">
-                                        <i class="far fa-calendar mr-1"></i> Feb 28, 2024
+                                        <i class="far fa-calendar mr-1"></i> Jan 28, 2026
                                     </span>
                                     <span class="text-gray-500 text-xs">
                                         <i class="far fa-clock mr-1"></i> 7 min read
                                     </span>
                                 </div>
                                 <h3 class="text-xl font-bold text-gray-900 mb-3 font-serif">
-                                    Smart Water Management Systems for Homes
+                                    Sustainable Collection: Reducing Carbon Footprint
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">
-                                    How technology is helping households reduce water consumption with intelligent monitoring and recycling systems.
+                                    How MJ Greens' collection systems are optimized for minimum environmental impact and maximum community cleanliness.
                                 </p>
                                 <div class="flex items-center justify-between">
                                     <div class="flex items-center space-x-2">
                                         <div class="w-8 h-8 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center text-white text-xs font-semibold">
-                                            TC
+                                            MJ
                                         </div>
-                                        <span class="text-sm text-gray-700">Taylor Chen</span>
+                                        <span class="text-sm text-gray-700">MJ Team</span>
                                     </div>
-                                    <a href="#" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
+                                    <a href="{{ route('blog.sustainable-collection') }}" class="text-emerald-600 hover:text-emerald-700 text-sm font-medium">
                                         Read <i class="fas fa-arrow-right ml-1"></i>
                                     </a>
                                 </div>
@@ -386,54 +386,58 @@
                 <div class="lg:w-1/3">
                     
 
-                    <!-- Categories -->
+                    <!-- Recent Blogs -->
                     <div class="bg-white rounded-2xl shadow-lg p-6 mb-8">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4 font-serif">Categories</h3>
-                        <div class="space-y-3">
-                            <a href="#" class="flex items-center justify-between p-3 rounded-lg hover:bg-emerald-50 transition-colors group">
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center mr-3 group-hover:bg-emerald-200">
-                                        <i class="fas fa-solar-panel text-emerald-600"></i>
-                                    </div>
-                                    <span class="font-medium text-gray-700">Renewable Energy</span>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4 font-serif">Recent Blogs</h3>
+                        <div class="space-y-6">
+                            <a href="{{ route('blog.revolutionizing-waste-management') }}" class="flex items-start gap-4 group">
+                                <div class="flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden">
+                                    <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Smart Waste" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                                 </div>
-                                <span class="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded">24</span>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-900 leading-tight group-hover:text-emerald-600 transition-colors">Revolutionizing Waste Management: MJ Greens' Smart Solutions</h4>
+                                    <p class="text-xs text-gray-500 mt-1">Feb 18, 2026</p>
+                                </div>
                             </a>
-                            <a href="#" class="flex items-center justify-between p-3 rounded-lg hover:bg-emerald-50 transition-colors group">
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center mr-3 group-hover:bg-emerald-200">
-                                        <i class="fas fa-recycle text-emerald-600"></i>
-                                    </div>
-                                    <span class="font-medium text-gray-700">Waste Management</span>
+                            
+                            <a href="{{ route('blog.sustainable-infrastructure') }}" class="flex items-start gap-4 group">
+                                <div class="flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden">
+                                    <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Infrastructure" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                                 </div>
-                                <span class="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded">18</span>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-900 leading-tight group-hover:text-emerald-600 transition-colors">Sustainable Infrastructure: Building a Cleaner Tomorrow</h4>
+                                    <p class="text-xs text-gray-500 mt-1">Feb 15, 2026</p>
+                                </div>
                             </a>
-                            <a href="#" class="flex items-center justify-between p-3 rounded-lg hover:bg-emerald-50 transition-colors group">
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center mr-3 group-hover:bg-emerald-200">
-                                        <i class="fas fa-leaf text-emerald-600"></i>
-                                    </div>
-                                    <span class="font-medium text-gray-700">Sustainable Living</span>
+
+                            <a href="{{ route('blog.responsible-recycling-for-businesses') }}" class="flex items-start gap-4 group">
+                                <div class="flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden">
+                                    <img src="https://images.pexels.com/photos/1549528/pexels-photo-1549528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Recycling" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                                 </div>
-                                <span class="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded">32</span>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-900 leading-tight group-hover:text-emerald-600 transition-colors">The Power of Responsible Recycling for Businesses</h4>
+                                    <p class="text-xs text-gray-500 mt-1">Feb 10, 2026</p>
+                                </div>
                             </a>
-                            <a href="#" class="flex items-center justify-between p-3 rounded-lg hover:bg-emerald-50 transition-colors group">
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center mr-3 group-hover:bg-emerald-200">
-                                        <i class="fas fa-building text-emerald-600"></i>
-                                    </div>
-                                    <span class="font-medium text-gray-700">Green Architecture</span>
+
+                            <a href="{{ route('blog.eco-friendly-home-practices') }}" class="flex items-start gap-4 group">
+                                <div class="flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden">
+                                    <img src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Eco Home" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                                 </div>
-                                <span class="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded">15</span>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-900 leading-tight group-hover:text-emerald-600 transition-colors">Eco-Friendly Practices for a Greener Home</h4>
+                                    <p class="text-xs text-gray-500 mt-1">Feb 05, 2026</p>
+                                </div>
                             </a>
-                            <a href="#" class="flex items-center justify-between p-3 rounded-lg hover:bg-emerald-50 transition-colors group">
-                                <div class="flex items-center">
-                                    <div class="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center mr-3 group-hover:bg-emerald-200">
-                                        <i class="fas fa-seedling text-emerald-600"></i>
-                                    </div>
-                                    <span class="font-medium text-gray-700">Urban Farming</span>
+
+                            <a href="{{ route('blog.sustainable-collection') }}" class="flex items-start gap-4 group">
+                                <div class="flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden">
+                                    <img src="https://images.pexels.com/photos/2990644/pexels-photo-2990644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Collection" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                                 </div>
-                                <span class="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded">22</span>
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-900 leading-tight group-hover:text-emerald-600 transition-colors">Sustainable Collection: Reducing Carbon Footprint</h4>
+                                    <p class="text-xs text-gray-500 mt-1">Jan 28, 2026</p>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -458,13 +462,13 @@
                                 #CleanEnergy
                             </a>
                             <a href="#" class="px-3 py-1.5 bg-purple-50 text-purple-700 rounded-full text-sm font-medium hover:bg-purple-100 transition-colors tag">
-                                #GreenTech
+                                #SmartWaste
                             </a>
                             <a href="#" class="px-3 py-1.5 bg-red-50 text-red-700 rounded-full text-sm font-medium hover:bg-red-100 transition-colors tag">
-                                #Conservation
+                                #UrbanCleanliness
                             </a>
                             <a href="#" class="px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium hover:bg-indigo-100 transition-colors tag">
-                                #Renewables
+                                #WasteRecycling
                             </a>
                         </div>
                     </div>

@@ -114,80 +114,63 @@
     </div>
 
     <!-- Main Content -->
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div class="flex flex-col lg:flex-row gap-6 lg:gap-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="flex flex-col lg:flex-row gap-12 items-stretch">
             <!-- Why Work With Us - LEFT SIDE -->
             <div class="lg:w-1/2">
-                <div class="bg-white  p-6 border-l-4  h-full">
-                    <h2 class="text-xl font-bold text-green-800 mb-2 pb-2 border-b  ">
-                        Why Work With Us
-                        <span class="absolute bottom-0 left-0 w-14 h-0.5 bg-green-500 rounded-full"></span>
-                    </h2>
+                <div class="bg-green-50 rounded-3xl p-8 md:p-10 h-full relative overflow-hidden">
+                    <!-- Decorative background element -->
+                    <div class="absolute -top-24 -right-24 w-64 h-64 bg-emerald-50 rounded-full blur-3xl opacity-60"></div>
                     
-                    <div class="space-y-5 mt-5">
-                        <!-- Benefit 1 -->
-                        <div class="flex items-start space-x-3 p-3 rounded-lg hover:bg-green-50 transition-all duration-300 group">
-                            <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-400 rounded-full flex items-center justify-center text-white shadow-md">
-                                <i class="fas fa-leaf text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-green-700 text-base mb-1">Sustainability Focus</h3>
-                                <p class="text-gray-600 text-sm">We're committed to environmental sustainability in all our projects and operations. Join us in making a real difference.</p>
-                            </div>
-                        </div>
+                    <div class="relative z-10">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-6 font-serif flex items-center gap-3">
+                            <span class="w-12 h-1 bg-emerald-500 rounded-full"></span>
+                            Why Work With Us
+                        </h2>
                         
-                        <!-- Benefit 2 -->
-                        <div class="flex items-start space-x-3 p-3 rounded-lg hover:bg-green-50 transition-all duration-300 group">
-                            <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-400 rounded-full flex items-center justify-center text-white shadow-md">
-                                <i class="fas fa-users text-lg"></i>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 mt-8">
+                            <!-- Benefit 1 -->
+                            <div class="flex items-start space-x-4 p-4 rounded-2xl hover:bg-emerald-50/50 transition-all duration-300 group border border-transparent hover:border-emerald-100">
+                                <div class="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center text-emerald-600 group-hover:bg-emerald-500 group-hover:text-white transition-all duration-500 shadow-sm">
+                                    <i class="fas fa-leaf text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-900 text-lg mb-1 group-hover:text-emerald-700 transition-colors">Sustainability Focus</h3>
+                                    <p class="text-gray-600 text-sm leading-relaxed">We're committed to environmental sustainability in all our projects and operations. Join us in making a real difference.</p>
+                                </div>
                             </div>
-                            <div>
-                                <h3 class="font-bold text-green-700 text-base mb-1">Collaborative Culture</h3>
-                                <p class="text-gray-600 text-sm">We foster a supportive, inclusive environment where teamwork and open communication are valued.</p>
+                            
+                            <!-- Benefit 2 -->
+                            <div class="flex items-start space-x-4 p-4 rounded-2xl hover:bg-blue-50/50 transition-all duration-300 group border border-transparent hover:border-blue-100">
+                                <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-blue-600 group-hover:bg-blue-500 group-hover:text-white transition-all duration-500 shadow-sm">
+                                    <i class="fas fa-users text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-900 text-lg mb-1 group-hover:text-blue-700 transition-colors">Collaborative Culture</h3>
+                                    <p class="text-gray-600 text-sm leading-relaxed">We foster a supportive, inclusive environment where teamwork and open communication are valued.</p>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <!-- Benefit 3 -->
-                        <div class="flex items-start space-x-3 p-3 rounded-lg hover:bg-green-50 transition-all duration-300 group">
-                            <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-400 rounded-full flex items-center justify-center text-white shadow-md">
-                                <i class="fas fa-chart-line text-lg"></i>
+                            
+                            <!-- Benefit 3 -->
+                            <div class="flex items-start space-x-4 p-4 rounded-2xl hover:bg-amber-50/50 transition-all duration-300 group border border-transparent hover:border-amber-100">
+                                <div class="flex-shrink-0 w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center text-amber-600 group-hover:bg-amber-500 group-hover:text-white transition-all duration-500 shadow-sm">
+                                    <i class="fas fa-chart-line text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-900 text-lg mb-1 group-hover:text-amber-700 transition-colors">Career Growth</h3>
+                                    <p class="text-gray-600 text-sm leading-relaxed">We invest in our employees' development with training programs and opportunities for advancement.</p>
+                                </div>
                             </div>
-                            <div>
-                                <h3 class="font-bold text-green-700 text-base mb-1">Career Growth</h3>
-                                <p class="text-gray-600 text-sm">We invest in our employees' development with training programs and opportunities for advancement.</p>
-                            </div>
-                        </div>
-                        
-                        <!-- Benefit 4 -->
-                        <div class="flex items-start space-x-3 p-3 rounded-lg hover:bg-green-50 transition-all duration-300 group">
-                            <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-400 rounded-full flex items-center justify-center text-white shadow-md">
-                                <i class="fas fa-award text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-green-700 text-base mb-1">Innovation & Excellence</h3>
-                                <p class="text-gray-600 text-sm">We encourage creative thinking and reward excellence in all areas of our work.</p>
-                            </div>
-                        </div>
-                        
-                        <!-- Benefit 5 -->
-                        <div class="flex items-start space-x-3 p-3 rounded-lg hover:bg-green-50 transition-all duration-300 group">
-                            <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-400 rounded-full flex items-center justify-center text-white shadow-md">
-                                <i class="fas fa-heart text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-green-700 text-base mb-1">Work-Life Balance</h3>
-                                <p class="text-gray-600 text-sm">We understand the importance of balance and offer flexible working arrangements.</p>
-                            </div>
-                        </div>
-                        
-                        <!-- Benefit 6 -->
-                        <div class="flex items-start space-x-3 p-3 rounded-lg hover:bg-green-50 transition-all duration-300 group">
-                            <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-400 rounded-full flex items-center justify-center text-white shadow-md">
-                                <i class="fas fa-medal text-lg"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-bold text-green-700 text-base mb-1">Competitive Benefits</h3>
-                                <p class="text-gray-600 text-sm">We offer comprehensive health coverage, retirement plans, and performance bonuses.</p>
+                            
+                            <!-- Benefit 4 -->
+                            <div class="flex items-start space-x-4 p-4 rounded-2xl hover:bg-purple-50/50 transition-all duration-300 group border border-transparent hover:border-purple-100">
+                                <div class="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-purple-600 group-hover:bg-purple-500 group-hover:text-white transition-all duration-500 shadow-sm">
+                                    <i class="fas fa-award text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-900 text-lg mb-1 group-hover:text-purple-700 transition-colors">Innovation & Excellence</h3>
+                                    <p class="text-gray-600 text-sm leading-relaxed">We encourage creative thinking and reward excellence in all areas of our work.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -196,158 +179,181 @@
             
             <!-- Apply Now Form - RIGHT SIDE -->
             <div class="lg:w-1/2">
-                <div class="bg-white shadow-lg p-6 border-l-4  ">
-                    <h2 class="text-xl font-bold text-green-800 mb-2 pb-2 border-b  ">
-                        Apply Now
-                        <span class="absolute bottom-0 left-0 w-14 h-0.5 bg-emerald-500 rounded-full"></span>
-                    </h2>
-                    
-                    <form id="careerForm" class="mt-5 space-y-5" novalidate>
-                        <!-- Name Fields -->
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                            <div>
-                                <label for="firstName" class="block text-sm font-medium text-green-700 mb-1">
-                                    First Name <span class="text-red-500">*</span>
-                                </label>
-                                <div class="relative">
-                                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                        <i class="fas fa-user text-green-500 text-sm"></i>
-                                    </div>
-                                    <input type="text" id="firstName" name="firstName" required
-                                           class="pl-9 w-full px-3 py-2.5 text-sm border border-green-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-300 bg-green-50 focus:bg-white"
-                                           placeholder="Enter your first name">
-                                </div>
-                                <div id="firstNameError" class="text-red-500 text-xs mt-1 hidden">Please enter your first name</div>
-                            </div>
-                            
-                            <div>
-                                <label for="lastName" class="block text-sm font-medium text-green-700 mb-1">
-                                    Last Name <span class="text-red-500">*</span>
-                                </label>
-                                <div class="relative">
-                                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                        <i class="fas fa-user text-green-500 text-sm"></i>
-                                    </div>
-                                    <input type="text" id="lastName" name="lastName" required
-                                           class="pl-9 w-full px-3 py-2.5 text-sm border border-green-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-300 bg-green-50 focus:bg-white"
-                                           placeholder="Enter your last name">
-                                </div>
-                                <div id="lastNameError" class="text-red-500 text-xs mt-1 hidden">Please enter your last name</div>
-                            </div>
-                        </div>
+                <div class="bg-green-50 rounded-3xl p-8 md:p-10  relative overflow-hidden">
+                    <!-- Decorative background element -->
+                    <div class="absolute -bottom-24 -left-24 w-64 h-64 bg-emerald-50 rounded-full blur-3xl opacity-60"></div>
+
+                    <div class="relative z-10">
+                        <h2 class="text-3xl font-bold text-gray-900 mb-2 font-serif flex items-center gap-3">
+                            <span class="w-12 h-1 bg-emerald-500 rounded-full"></span>
+                            Apply Now
+                        </h2>
+                        <p class="text-gray-500 mb-8 ml-15">Take the first step towards your dream career.</p>
                         
-                        <!-- Email Field -->
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-green-700 mb-1">
-                                Email <span class="text-red-500">*</span>
-                            </label>
-                            <div class="relative">
-                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                    <i class="fas fa-envelope text-green-500 text-sm"></i>
-                                </div>
-                                <input type="email" id="email" name="email" required
-                                       class="pl-9 w-full px-3 py-2.5 text-sm border border-green-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-300 bg-green-50 focus:bg-white"
-                                       placeholder="Enter your email address">
-                            </div>
-                            <div id="emailError" class="text-red-500 text-xs mt-1 hidden">Please enter a valid email address</div>
-                        </div>
-                        
-                        <!-- Phone Field -->
-                        <div>
-                            <label for="phone" class="block text-sm font-medium text-green-700 mb-1">
-                                Phone <span class="text-red-500">*</span>
-                            </label>
-                            <div class="relative">
-                                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                    <i class="fas fa-phone text-green-500 text-sm"></i>
-                                </div>
-                                <input type="tel" id="phone" name="phone" required
-                                       class="pl-9 w-full px-3 py-2.5 text-sm border border-green-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-300 bg-green-50 focus:bg-white"
-                                       placeholder="Enter your phone number">
-                            </div>
-                            <div id="phoneError" class="text-red-500 text-xs mt-1 hidden">Please enter a valid phone number</div>
-                        </div>
-                        
-                        <!-- CV Upload -->
-                        <div>
-                            <label class="block text-sm font-medium text-green-700 mb-1">
-                                Please upload your CV <span class="text-red-500">*</span>
-                            </label>
-                            
-                            <!-- File Upload Area -->
-                            <div id="fileUploadArea" 
-                                 class="file-upload-hover border-2 border-dashed border-green-300 rounded-xl p-6 text-center bg-green-50 cursor-pointer">
-                                <i class="fas fa-cloud-upload-alt text-4xl text-green-500 mb-3"></i>
-                                <p class="text-base font-semibold text-green-700 mb-1">DROP A FILE HERE OR CLICK TO UPLOAD</p>
-                                <p class="text-green-600 text-sm">Maximum upload size: 5MB</p>
-                                <input type="file" id="cvUpload" class="hidden" accept=".pdf,.doc,.docx,.txt">
-                            </div>
-                            
-                            <!-- Progress Bar -->
-                            <div id="uploadProgress" class="mt-3 hidden">
-                                <div class="w-full bg-green-200 rounded-full h-1.5">
-                                    <div id="uploadProgressBar" class="bg-green-600 h-1.5 rounded-full animate-progressBar"></div>
-                                </div>
-                            </div>
-                            
-                            <!-- Selected File Info -->
-                            <div id="selectedFile" class="mt-3 p-3 bg-green-100 rounded-lg border-l-4 border-green-500 hidden">
-                                <div class="flex items-center justify-between">
-                                    <div class="flex items-center space-x-2">
-                                        <i class="fas fa-file-alt text-green-600 text-lg"></i>
-                                        <div>
-                                            <div id="fileName" class="font-medium text-green-800 text-sm"></div>
-                                            <div id="fileSize" class="text-xs text-green-600"></div>
-                                        </div>
-                                    </div>
-                                    <button type="button" id="removeFile" class="text-red-500 hover:text-red-700 p-1 rounded-full hover:bg-red-50 text-sm">
-                                        <i class="fas fa-times"></i>
-                                    </button>
-                                </div>
-                            </div>
-                            
-                            <div id="fileError" class="text-red-500 text-xs mt-1 hidden">Please upload your CV (PDF, DOC, DOCX or TXT)</div>
-                        </div>
-                        
-                        <!-- Submit Button -->
-                        <button type="submit" id="submitBtn"
-                                class="btn-shine w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white font-semibold py-3 px-5 rounded-lg shadow-lg hover:from-green-700 hover:to-emerald-700 transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center text-sm">
-                            <i class="fas fa-paper-plane mr-2"></i>
-                            SUBMIT APPLICATION
-                        </button>
-                        
-                        <!-- Success Message -->
-                        <div id="successMessage" class="p-3 bg-green-100 border-l-4 border-green-500 rounded-lg hidden animate-fadeIn">
-                            <div class="flex items-center">
-                                <i class="fas fa-check-circle text-green-600 text-lg mr-2"></i>
+                        <form id="careerForm" class="space-y-6" novalidate>
+                            <!-- Name Fields -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <p class="font-medium text-green-800 text-sm">Your application has been submitted successfully!</p>
-                                    <p class="text-green-600 text-xs mt-0.5">We'll contact you soon.</p>
+                                    <label for="firstName" class="block text-sm font-semibold text-gray-700 mb-2">
+                                        First Name <span class="text-emerald-500">*</span>
+                                    </label>
+                                    <div class="relative group">
+                                        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none transition-colors group-focus-within:text-emerald-500 z-10">
+                                            <i class="fas fa-user text-gray-400 text-sm"></i>
+                                        </div>
+                                        <input type="text" id="firstName" name="firstName" required
+                                               class="w-full pl-11 pr-4 py-3.5 text-gray-700 border border-gray-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all duration-300 bg-white"
+                                               placeholder="John">
+                                    </div>
+                                    <div id="firstNameError" class="text-red-500 text-xs mt-2 hidden flex items-center gap-1">
+                                        <i class="fas fa-exclamation-circle"></i> Please enter your first name
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <label for="lastName" class="block text-sm font-semibold text-gray-700 mb-2">
+                                        Last Name <span class="text-emerald-500">*</span>
+                                    </label>
+                                    <div class="relative group">
+                                        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none transition-colors group-focus-within:text-emerald-500 z-10">
+                                            <i class="fas fa-user text-gray-400 text-sm"></i>
+                                        </div>
+                                        <input type="text" id="lastName" name="lastName" required
+                                               class="w-full pl-11 pr-4 py-3.5 text-gray-700 border border-gray-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all duration-300 bg-white"
+                                               placeholder="Doe">
+                                    </div>
+                                    <div id="lastNameError" class="text-red-500 text-xs mt-2 hidden flex items-center gap-1">
+                                        <i class="fas fa-exclamation-circle"></i> Please enter your last name
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </form>
+                            
+                            <!-- Email Field -->
+                            <div>
+                                <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    Email Address <span class="text-emerald-500">*</span>
+                                </label>
+                                <div class="relative group">
+                                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none transition-colors group-focus-within:text-emerald-500 z-10">
+                                        <i class="fas fa-envelope text-gray-400 text-sm"></i>
+                                    </div>
+                                    <input type="email" id="email" name="email" required
+                                           class="w-full pl-11 pr-4 py-3.5 text-gray-700 border border-gray-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all duration-300 bg-white"
+                                           placeholder="john.doe@example.com">
+                                </div>
+                                <div id="emailError" class="text-red-500 text-xs mt-2 hidden flex items-center gap-1">
+                                    <i class="fas fa-exclamation-circle"></i> Please enter a valid email address
+                                </div>
+                            </div>
+                            
+                            <!-- Phone Field -->
+                            <!-- Position -->
+                            <div>
+                                <label for="position" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    Position Applying For <span class="text-emerald-500">*</span>
+                                </label>
+                                <div class="relative group">
+                                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none transition-colors group-focus-within:text-emerald-500 z-10">
+                                        <i class="fas fa-briefcase text-gray-400 text-sm"></i>
+                                    </div>
+                                    <select id="position" name="position" required
+                                            class="w-full pl-11 pr-10 py-3.5 text-gray-700 border border-gray-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all duration-300 bg-white appearance-none">
+                                        <option value="" disabled selected>Select a position</option>
+                                        <option value="Environmental Consultant">Environmental Consultant</option>
+                                        <option value="Sustainability Specialist">Sustainability Specialist</option>
+                                        <option value="Field Researcher">Field Researcher</option>
+                                        <option value="Project Manager">Project Manager</option>
+                                        <option value="Operations Associate">Operations Associate</option>
+                                        <option value="General Application">General Application</option>
+                                    </select>
+                                    <div class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none z-10">
+                                        <i class="fas fa-chevron-down text-gray-400 text-xs"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="phone" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    Phone Number <span class="text-emerald-500">*</span>
+                                </label>
+                                <div class="relative group">
+                                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none transition-colors group-focus-within:text-emerald-500 z-10">
+                                        <i class="fas fa-phone text-gray-400 text-sm"></i>
+                                    </div>
+                                    <input type="tel" id="phone" name="phone" required
+                                           class="w-full pl-11 pr-4 py-3.5 text-gray-700 border border-gray-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all duration-300 bg-white"
+                                           placeholder="+91 00000 00000">
+                                </div>
+                                <div id="phoneError" class="text-red-500 text-xs mt-2 hidden flex items-center gap-1">
+                                    <i class="fas fa-exclamation-circle"></i> Please enter a valid phone number
+                                </div>
+                            </div>
+                            
+                            <!-- About Yourself -->
+                            <div>
+                                <label for="about" class="block text-sm font-semibold text-gray-700 mb-2">
+                                    About Yourself <span class="text-emerald-500">*</span>
+                                </label>
+                                <div class="relative group">
+                                    <div class="absolute top-4 left-4 pointer-events-none transition-colors group-focus-within:text-emerald-500 z-10">
+                                        <i class="fas fa-comment-alt text-gray-400 text-sm"></i>
+                                    </div>
+                                    <textarea id="about" name="about" required rows="4"
+                                              class="w-full pl-11 pr-4 py-3.5 text-gray-700 border border-gray-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 transition-all duration-300 bg-white"
+                                              placeholder="Tell us about your background and experience..."></textarea>
+                                </div>
+                                <div id="aboutError" class="text-red-500 text-xs mt-2 hidden flex items-center gap-1">
+                                    <i class="fas fa-exclamation-circle"></i> Please tell us something about yourself
+                                </div>
+                            </div>
+                            
+                            <!-- Submit Button -->
+                            <button type="submit" id="submitBtn"
+                                    class="w-full bg-emerald-600 text-white font-bold py-4 px-6 rounded-2xl shadow-xl shadow-emerald-200 hover:bg-emerald-700 transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3 group">
+                                <span>Submit via WhatsApp</span>
+                                <i class="fab fa-whatsapp text-xl group-hover:scale-110 transition-transform"></i>
+                            </button>
+                            
+                            <!-- Success Message -->
+                            <div id="successMessage" class="p-4 bg-emerald-50 border border-emerald-100 rounded-2xl hidden animate-fadeIn">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 bg-emerald-500 rounded-full flex items-center justify-center text-white flex-shrink-0">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-bold text-gray-900 text-sm">Redirecting to WhatsApp...</p>
+                                        <p class="text-gray-600 text-xs">Please complete the submission in the WhatsApp chat.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
         
         <!-- FAQ Section -->
-        <div class="mt-12">
-            <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl shadow-lg p-6 md:p-8 border border-green-100">
-                <h2 class="text-2xl font-bold text-green-800 text-center mb-8 relative pb-3">
-                    Frequently Asked Questions
-                    <span class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-green-500 rounded-full"></span>
-                </h2>
+        <div class="mt-20">
+            <div class=" rounded-3xl  bg-green-50  p-8 md:p-12 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-emerald-50 rounded-full blur-3xl opacity-60 -mr-32 -mt-32"></div>
                 
-                <div class="max-w-4xl mx-auto space-y-3">
-                    <!-- FAQ 1 -->
-                    <div class="faq-item bg-white rounded-lg border border-green-200 overflow-hidden">
-                        <div class="faq-question p-4 cursor-pointer flex justify-between items-center hover:bg-green-50 transition-colors duration-300">
-                            <h3 class="font-bold text-green-800 text-base">What types of positions are available at MJ GREENS?</h3>
-                            <i class="fas fa-chevron-down text-green-600 transition-transform duration-300 text-sm"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <div class="p-4 pt-0 text-gray-600">
+                <div class="relative z-10">
+                    <h2 class="text-3xl font-bold text-gray-900 text-center mb-4 font-serif">
+                        Frequently Asked Questions
+                    </h2>
+                    <p class="text-gray-500 text-center mb-12 max-w-2xl mx-auto">Everything you need to know about joining our team and the impact we create together.</p>
+                    
+                    <div class="max-w-4xl mx-auto space-y-4">
+                        <!-- FAQ 1 -->
+                        <div class="faq-item bg-white rounded-2xl border border-gray-100 overflow-hidden hover:border-emerald-200 transition-all duration-300">
+                            <div class="faq-question p-6 cursor-pointer flex justify-between items-center group">
+                                <h3 class="font-bold text-gray-900 text-lg group-hover:text-emerald-600 transition-colors">What types of positions are available at MJ GREENS?</h3>
+                                <div class="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-500 group-hover:bg-emerald-500 group-hover:text-white transition-all duration-300">
+                                    <i class="fas fa-chevron-down text-xs transition-transform duration-300"></i>
+                                </div>
+                            </div>
+                            <div class="faq-answer">
+                                <div class="p-6 pt-0 text-gray-600 leading-relaxed">
                                 <p class="mb-2 text-sm">We offer a wide range of positions across various departments including:</p>
                                 <ul class="list-disc pl-4 space-y-1 text-sm">
                                     <li><span class="font-semibold text-green-700">Sustainability & Environmental Management</span> - Roles focused on environmental impact assessment and green initiatives</li>
@@ -361,21 +367,23 @@
                     </div>
                     
                     <!-- FAQ 2 -->
-                    <div class="faq-item bg-white rounded-lg border border-green-200 overflow-hidden">
-                        <div class="faq-question p-4 cursor-pointer flex justify-between items-center hover:bg-green-50 transition-colors duration-300">
-                            <h3 class="font-bold text-green-800 text-base">What is the typical hiring process at MJ GREENS?</h3>
-                            <i class="fas fa-chevron-down text-green-600 transition-transform duration-300 text-sm"></i>
+                    <div class="faq-item bg-white rounded-2xl border border-gray-100 overflow-hidden hover:border-emerald-200 transition-all duration-300">
+                        <div class="faq-question p-6 cursor-pointer flex justify-between items-center group">
+                            <h3 class="font-bold text-gray-900 text-lg group-hover:text-emerald-600 transition-colors">What is the typical hiring process at MJ GREENS?</h3>
+                            <div class="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-500 group-hover:bg-emerald-500 group-hover:text-white transition-all duration-300">
+                                <i class="fas fa-chevron-down text-xs transition-transform duration-300"></i>
+                            </div>
                         </div>
                         <div class="faq-answer">
-                            <div class="p-4 pt-0 text-gray-600">
+                            <div class="p-6 pt-0 text-gray-600 leading-relaxed">
                                 <p class="mb-2 text-sm">Our hiring process typically involves:</p>
                                 <ol class="list-decimal pl-4 space-y-1 mb-2 text-sm">
-                                    <li><span class="font-semibold text-green-700">Application Review</span> - Within 5-7 business days</li>
-                                    <li><span class="font-semibold text-green-700">Initial Screening</span> - Brief phone or video screening</li>
-                                    <li><span class="font-semibold text-green-700">Skills Assessment</span> - Task or assessment based on role</li>
-                                    <li><span class="font-semibold text-green-700">Interviews</span> - 2-3 rounds with team members</li>
-                                    <li><span class="font-semibold text-green-700">Reference Checks</span> - For final candidates</li>
-                                    <li><span class="font-semibold text-green-700">Offer</span> - Formal offer letter</li>
+                                    <li><span class="font-bold text-emerald-600">Application Review</span> - Within 5-7 business days</li>
+                                    <li><span class="font-bold text-emerald-600">Initial Screening</span> - Brief phone or video screening</li>
+                                    <li><span class="font-bold text-emerald-600">Skills Assessment</span> - Task or assessment based on role</li>
+                                    <li><span class="font-bold text-emerald-600">Interviews</span> - 2-3 rounds with team members</li>
+                                    <li><span class="font-bold text-emerald-600">Reference Checks</span> - For final candidates</li>
+                                    <li><span class="font-bold text-emerald-600">Offer</span> - Formal offer letter</li>
                                 </ol>
                                 <p class="text-sm">The entire process usually takes 2-4 weeks from application to offer.</p>
                             </div>
@@ -383,45 +391,52 @@
                     </div>
                     
                     <!-- FAQ 3 -->
-                    <div class="faq-item bg-white rounded-lg border border-green-200 overflow-hidden">
-                        <div class="faq-question p-4 cursor-pointer flex justify-between items-center hover:bg-green-50 transition-colors duration-300">
-                            <h3 class="font-bold text-green-800 text-base">What qualifications do I need to work at MJ GREENS?</h3>
-                            <i class="fas fa-chevron-down text-green-600 transition-transform duration-300 text-sm"></i>
+                    <div class="faq-item bg-white rounded-2xl border border-gray-100 overflow-hidden hover:border-emerald-200 transition-all duration-300">
+                        <div class="faq-question p-6 cursor-pointer flex justify-between items-center group">
+                            <h3 class="font-bold text-gray-900 text-lg group-hover:text-emerald-600 transition-colors">What qualifications do I need to work at MJ GREENS?</h3>
+                            <div class="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-500 group-hover:bg-emerald-500 group-hover:text-white transition-all duration-300">
+                                <i class="fas fa-chevron-down text-xs transition-transform duration-300"></i>
+                            </div>
                         </div>
                         <div class="faq-answer">
-                            <div class="p-4 pt-0 text-gray-600">
+                            <div class="p-6 pt-0 text-gray-600 leading-relaxed">
                                 <p class="mb-2 text-sm">Qualifications vary by position, but generally we look for:</p>
                                 <ul class="list-disc pl-4 space-y-1 text-sm">
-                                    <li><span class="font-semibold text-green-700">Education</span> - Relevant degree or equivalent experience</li>
-                                    <li><span class="font-semibold text-green-700">Experience</span> - Practical experience in your field</li>
-                                    <li><span class="font-semibold text-green-700">Skills</span> - Technical skills plus strong communication abilities</li>
-                                    <li><span class="font-semibold text-green-700">Passion for Sustainability</span> - Genuine interest in environmental issues</li>
-                                    <li><span class="font-semibold text-green-700">Alignment with Values</span> - Commitment to our sustainability mission</li>
+                                    <li><span class="font-bold text-emerald-600">Education</span> - Relevant degree or equivalent experience</li>
+                                    <li><span class="font-bold text-emerald-600">Experience</span> - Practical experience in your field</li>
+                                    <li><span class="font-bold text-emerald-600">Skills</span> - Technical skills plus strong communication abilities</li>
+                                    <li><span class="font-bold text-emerald-600">Passion for Sustainability</span> - Genuine interest in environmental issues</li>
+                                    <li><span class="font-bold text-emerald-600">Alignment with Values</span> - Commitment to our sustainability mission</li>
                                 </ul>
-                                <p class="mt-2 text-sm">We value diverse backgrounds - if you're passionate about sustainability, we encourage you to apply!</p>
+                                <p class="mt-2 text-sm font-medium text-emerald-600">We value diverse backgrounds - if you're passionate about sustainability, we encourage you to apply!</p>
                             </div>
                         </div>
                     </div>
                     
                     <!-- FAQ 4 -->
-                    <div class="faq-item bg-white rounded-lg border border-green-200 overflow-hidden">
-                        <div class="faq-question p-4 cursor-pointer flex justify-between items-center hover:bg-green-50 transition-colors duration-300">
-                            <h3 class="font-bold text-green-800 text-base">What benefits does MJ GREENS offer to employees?</h3>
-                            <i class="fas fa-chevron-down text-green-600 transition-transform duration-300 text-sm"></i>
+                    <div class="faq-item bg-white rounded-2xl border border-gray-100 overflow-hidden hover:border-emerald-200 transition-all duration-300">
+                        <div class="faq-question p-6 cursor-pointer flex justify-between items-center group">
+                            <h3 class="font-bold text-gray-900 text-lg group-hover:text-emerald-600 transition-colors">What benefits does MJ GREENS offer to employees?</h3>
+                            <div class="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-500 group-hover:bg-emerald-500 group-hover:text-white transition-all duration-300">
+                                <i class="fas fa-chevron-down text-xs transition-transform duration-300"></i>
+                            </div>
                         </div>
                         <div class="faq-answer">
-                            <div class="p-4 pt-0 text-gray-600">
+                            <div class="p-6 pt-0 text-gray-600 leading-relaxed">
                                 <p class="mb-2 text-sm">We offer a comprehensive benefits package including:</p>
                                 <ul class="list-disc pl-4 space-y-1 text-sm">
-                                    <li><span class="font-semibold text-green-700">Health & Wellness</span> - Comprehensive medical, dental, and vision insurance</li>
-                                    <li><span class="font-semibold text-green-700">Financial Security</span> - Competitive salaries, retirement plans with company matching</li>
-                                    <li><span class="font-semibold text-green-700">Work-Life Balance</span> - Flexible working hours, remote work options</li>
-                                    <li><span class="font-semibold text-green-700">Professional Development</span> - Training programs, mentorship opportunities</li>
-                                    <li><span class="font-semibold text-green-700">Sustainability Perks</span> - Green commuting benefits, eco-friendly office spaces</li>
+                                    <li><span class="font-bold text-emerald-600">Health & Wellness</span> - Comprehensive medical, dental, and vision insurance</li>
+                                    <li><span class="font-bold text-emerald-600">Financial Security</span> - Competitive salaries, retirement plans with company matching</li>
+                                    <li><span class="font-bold text-emerald-600">Work-Life Balance</span> - Flexible working hours, remote work options</li>
+                                    <li><span class="font-bold text-emerald-600">Professional Development</span> - Training programs, mentorship opportunities</li>
+                                    <li><span class="font-bold text-emerald-600">Sustainability Perks</span> - Green commuting benefits, eco-friendly office spaces</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
                 </div>
             </div>
         </div>
@@ -438,14 +453,6 @@
     <script>
         // DOM Elements
         const careerForm = document.getElementById('careerForm');
-        const fileUploadArea = document.getElementById('fileUploadArea');
-        const fileInput = document.getElementById('cvUpload');
-        const selectedFile = document.getElementById('selectedFile');
-        const fileName = document.getElementById('fileName');
-        const fileSize = document.getElementById('fileSize');
-        const removeFileBtn = document.getElementById('removeFile');
-        const uploadProgress = document.getElementById('uploadProgress');
-        const uploadProgressBar = document.getElementById('uploadProgressBar');
         const submitBtn = document.getElementById('submitBtn');
         const successMessage = document.getElementById('successMessage');
         const notification = document.getElementById('notification');
@@ -456,12 +463,13 @@
         const lastNameInput = document.getElementById('lastName');
         const emailInput = document.getElementById('email');
         const phoneInput = document.getElementById('phone');
+        const aboutInput = document.getElementById('about');
         
         const firstNameError = document.getElementById('firstNameError');
         const lastNameError = document.getElementById('lastNameError');
         const emailError = document.getElementById('emailError');
         const phoneError = document.getElementById('phoneError');
-        const fileError = document.getElementById('fileError');
+        const aboutError = document.getElementById('aboutError');
         
         // FAQ Elements
         const faqItems = document.querySelectorAll('.faq-item');
@@ -511,102 +519,9 @@
             });
         });
         
-        // File Upload Functionality
-        fileUploadArea.addEventListener('click', () => fileInput.click());
-        
-        fileInput.addEventListener('change', handleFileSelection);
-        
-        removeFileBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            resetFileUpload();
-            clearFileError();
-        });
-        
-        function handleFileSelection(e) {
-            if (fileInput.files.length > 0) {
-                const file = fileInput.files[0];
-                
-                // Validate file type
-                const validTypes = ['application/pdf', 'application/msword', 
-                                   'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 
-                                   'text/plain'];
-                if (!validTypes.includes(file.type)) {
-                    showFileError('Please upload a PDF, DOC, DOCX or TXT file');
-                    fileInput.value = '';
-                    return;
-                }
-                
-                // Check file size (5MB limit)
-                if (file.size > 5 * 1024 * 1024) {
-                    showFileError('File size exceeds 5MB limit. Please choose a smaller file.');
-                    fileInput.value = '';
-                    return;
-                }
-                
-                // Update UI with file info
-                fileName.textContent = file.name;
-                fileSize.textContent = formatFileSize(file.size);
-                selectedFile.classList.remove('hidden');
-                uploadProgress.classList.remove('hidden');
-                
-                // Simulate upload progress
-                uploadProgressBar.classList.remove('animate-progressBar');
-                void uploadProgressBar.offsetWidth; // Trigger reflow
-                uploadProgressBar.classList.add('animate-progressBar');
-                
-                // Change border color
-                fileUploadArea.classList.remove('border-green-300');
-                fileUploadArea.classList.add('border-green-500', 'bg-green-100');
-                clearFileError();
-            } else {
-                resetFileUpload();
-            }
-        }
-        
-        function resetFileUpload() {
-            fileInput.value = '';
-            selectedFile.classList.add('hidden');
-            uploadProgress.classList.add('hidden');
-            fileUploadArea.classList.remove('border-green-500', 'bg-green-100');
-            fileUploadArea.classList.add('border-green-300');
-            uploadProgressBar.classList.remove('animate-progressBar');
-            uploadProgressBar.style.width = '0%';
-        }
-        
-        function formatFileSize(bytes) {
-            if (bytes === 0) return '0 Bytes';
-            const k = 1024;
-            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
-            const i = Math.floor(Math.log(bytes) / Math.log(k));
-            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-        }
-        
-        // Drag and drop functionality
-        fileUploadArea.addEventListener('dragover', (e) => {
-            e.preventDefault();
-            fileUploadArea.classList.remove('border-green-300');
-            fileUploadArea.classList.add('border-green-500', 'bg-green-100');
-        });
-        
-        fileUploadArea.addEventListener('dragleave', () => {
-            if (fileInput.files.length === 0) {
-                fileUploadArea.classList.remove('border-green-500', 'bg-green-100');
-                fileUploadArea.classList.add('border-green-300');
-            }
-        });
-        
-        fileUploadArea.addEventListener('drop', (e) => {
-            e.preventDefault();
-            if (e.dataTransfer.files.length > 0) {
-                fileInput.files = e.dataTransfer.files;
-                const changeEvent = new Event('change');
-                fileInput.dispatchEvent(changeEvent);
-            }
-        });
-        
         // Form Validation Functions
         function showError(inputElement, errorElement, message) {
-            inputElement.classList.remove('border-green-200', 'bg-green-50');
+            inputElement.classList.remove('border-green-200', 'bg-white');
             inputElement.classList.add('border-red-300', 'bg-red-50');
             errorElement.textContent = message;
             errorElement.classList.remove('hidden');
@@ -614,20 +529,11 @@
         
         function showSuccess(inputElement) {
             inputElement.classList.remove('border-red-300', 'bg-red-50');
-            inputElement.classList.add('border-green-200', 'bg-green-50');
+            inputElement.classList.add('border-green-200', 'bg-white');
         }
         
         function clearError(errorElement) {
             errorElement.classList.add('hidden');
-        }
-        
-        function showFileError(message) {
-            fileError.textContent = message;
-            fileError.classList.remove('hidden');
-        }
-        
-        function clearFileError() {
-            fileError.classList.add('hidden');
         }
         
         // Real-time Validation
@@ -670,6 +576,15 @@
             } else {
                 showSuccess(phoneInput);
                 clearError(phoneError);
+            }
+        });
+
+        aboutInput.addEventListener('blur', () => {
+            if (!aboutInput.value.trim()) {
+                showError(aboutInput, aboutError, 'Please tell us something about yourself');
+            } else {
+                showSuccess(aboutInput);
+                clearError(aboutError);
             }
         });
         
@@ -721,12 +636,13 @@
                 clearError(phoneError);
             }
             
-            // Validate file
-            if (fileInput.files.length === 0) {
-                showFileError('Please upload your CV');
+            // Validate about
+            if (!aboutInput.value.trim()) {
+                showError(aboutInput, aboutError, 'Please tell us something about yourself');
                 isValid = false;
             } else {
-                clearFileError();
+                showSuccess(aboutInput);
+                clearError(aboutError);
             }
             
             return isValid;
@@ -758,7 +674,7 @@
         }
         
         // Form Submission
-        careerForm.addEventListener('submit', async (e) => {
+        careerForm.addEventListener('submit', (e) => {
             e.preventDefault();
             
             if (!validateForm()) {
@@ -768,27 +684,49 @@
             
             // Show loading state
             const originalText = submitBtn.innerHTML;
-            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Processing...';
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Redirecting...';
             submitBtn.disabled = true;
             
-            // Simulate API call
+            // Collect form data
+            const firstName = firstNameInput.value;
+            const lastName = lastNameInput.value;
+            const email = emailInput.value;
+            const phone = phoneInput.value;
+            const position = document.querySelector('select[name="position"]')?.value || 'General Application';
+            const about = aboutInput.value;
+            
+            // Format WhatsApp message
+            const whatsappNumber = '9670820000';
+            const message = `*New Career Application - MJ GREENS*%0A%0A` +
+                           `*Name:* ${firstName} ${lastName}%0A` +
+                           `*Email:* ${email}%0A` +
+                           `*Phone:* ${phone}%0A` +
+                           `*Position:* ${position}%0A%0A` +
+                           `*About:* ${about}%0A%0A` +
+                           `_I am interested in joining the MJ GREENS team._`;
+            
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+            
+            // Simulate short delay for feedback
             setTimeout(() => {
-                // Show success message
+                // Show success message briefly
                 successMessage.classList.remove('hidden');
-                showNotification('Application submitted successfully!');
+                showNotification('Redirecting to WhatsApp...');
+                
+                // Open WhatsApp
+                window.open(whatsappUrl, '_blank');
                 
                 // Reset form
                 careerForm.reset();
-                resetFileUpload();
                 
                 // Reset validation states
-                [firstNameInput, lastNameInput, emailInput, phoneInput].forEach(input => {
-                    input.classList.remove('border-red-300', 'bg-red-50', 'border-green-200', 'bg-green-50');
-                    input.classList.add('border-green-200', 'bg-green-50');
+                [firstNameInput, lastNameInput, emailInput, phoneInput, aboutInput].forEach(input => {
+                    input.classList.remove('border-red-300', 'bg-red-50', 'border-green-200', 'bg-white');
+                    input.classList.add('border-green-200', 'bg-white');
                 });
                 
                 // Clear all error messages
-                [firstNameError, lastNameError, emailError, phoneError, fileError].forEach(error => {
+                [firstNameError, lastNameError, emailError, phoneError, aboutError].forEach(error => {
                     error.classList.add('hidden');
                 });
                 
@@ -800,17 +738,7 @@
                 setTimeout(() => {
                     successMessage.classList.add('hidden');
                 }, 5000);
-                
-                // Log form data (in real app, send to server)
-                const formData = {
-                    firstName: firstNameInput.value,
-                    lastName: lastNameInput.value,
-                    email: emailInput.value,
-                    phone: phoneInput.value,
-                    fileName: fileInput.files[0]?.name
-                };
-                console.log('Form submitted with:', formData);
-            }, 1500);
+            }, 1000);
         });
         
         // Animate elements on page load

@@ -45,12 +45,32 @@
       // Show loading state
       const button = e.target.querySelector('button[type="submit"]');
       const originalText = button.innerHTML;
-      button.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Sending...';
+      button.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Redirecting...';
       button.disabled = true;
       
-      // Simulate API call
+      // Collect form data
+      const firstName = document.getElementById('firstName').value;
+      const lastName = document.getElementById('lastName').value;
+      const email = document.getElementById('email').value;
+      const subject = document.getElementById('subject').value;
+      const messageText = document.getElementById('message').value;
+      
+      // Format WhatsApp message
+      const whatsappNumber = '9670820000';
+      const message = `*New Query - MJ GREENS*%0A%0A` +
+                     `*Name:* ${firstName} ${lastName}%0A` +
+                     `*Email:* ${email}%0A` +
+                     `*Subject:* ${subject}%0A%0A` +
+                     `*Message:* ${messageText}`;
+      
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`;
+      
+      // Simulate short delay
       setTimeout(() => {
-        button.innerHTML = '<i class="fas fa-check mr-2"></i> Message Sent!';
+        // Open WhatsApp
+        window.open(whatsappUrl, '_blank');
+        
+        button.innerHTML = '<i class="fas fa-check mr-2"></i> Redirected!';
         button.classList.remove('from-green-dark', 'to-green-600');
         button.classList.add('from-green-medium', 'to-green-dark');
         
@@ -61,11 +81,8 @@
           button.disabled = false;
           button.classList.remove('from-green-medium', 'to-green-dark');
           button.classList.add('from-green-dark', 'to-green-600');
-          
-          // Show success message
-          alert("Thank you for contacting Greenset 🌱\nWe'll get back to you within 24 hours.");
         }, 2000);
-      }, 1500);
+      }, 1000);
     }
     
     // Initialize form validation
@@ -235,7 +252,7 @@
         <form onsubmit="submitForm(event)" class="space-y-6">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
             <div class="relative">
-              <input type="text" placeholder="First Name" required
+              <input type="text" id="firstName" placeholder="First Name" required
                 class="form-input w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:border-accent transition pl-12">
               <div class="absolute left-4 top-4 text-gray-400">
                 <i class="fas fa-user"></i>
@@ -243,7 +260,7 @@
             </div>
             
             <div class="relative">
-              <input type="text" placeholder="Last Name" required
+              <input type="text" id="lastName" placeholder="Last Name" required
                 class="form-input w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:border-accent transition pl-12">
               <div class="absolute left-4 top-4 text-gray-400">
                 <i class="fas fa-user"></i>
@@ -252,7 +269,7 @@
           </div>
 
           <div class="relative">
-            <input type="email" placeholder="Email Address" required
+            <input type="email" id="email" placeholder="Email Address" required
               class="form-input w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:border-accent transition pl-12">
             <div class="absolute left-4 top-4 text-gray-400">
               <i class="fas fa-envelope"></i>
@@ -260,7 +277,7 @@
           </div>
 
           <div class="relative">
-            <input type="text" placeholder="Subject" required
+            <input type="text" id="subject" placeholder="Subject" required
               class="form-input w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:border-accent transition pl-12">
             <div class="absolute left-4 top-4 text-gray-400">
               <i class="fas fa-tag"></i>
@@ -268,7 +285,7 @@
           </div>
 
           <div class="relative">
-            <textarea rows="5" placeholder="Your Message" required
+            <textarea id="message" rows="5" placeholder="Your Message" required
               class="form-input w-full border border-gray-300 rounded-xl px-5 py-4 focus:outline-none focus:border-accent transition pl-12"></textarea>
             <div class="absolute left-4 top-4 text-gray-400">
               <i class="fas fa-edit"></i>
@@ -312,21 +329,7 @@
   </div>
 </section>
 
-<!-- FOOTER CTA -->
-<section class="max-w-5xl mx-auto px-6 py-12 text-center">
-  <div class="bg-gradient-to-r from-green-dark to-green-600 rounded-3xl p-10 text-white shadow-custom-lg">
-    <h2 class="text-3xl font-bold mb-4">Ready to Make a Difference?</h2>
-    <p class="text-green-light mb-8 max-w-2xl mx-auto">Join us in creating a greener future. Let's collaborate on sustainable projects that matter.</p>
-    <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-      <a href="#" class="bg-white text-green-dark font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition">
-        <i class="fas fa-handshake mr-2"></i> Partnership Inquiry
-      </a>
-      <a href="#" class="bg-accent text-green-dark font-semibold px-8 py-3 rounded-full hover:bg-lime-300 transition">
-        <i class="fas fa-calendar-alt mr-2"></i> Schedule a Call
-      </a>
-    </div>
-  </div>
-</section>
+
 
 <x-footer />
 

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Certification Section</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
         
@@ -45,7 +46,7 @@
       leftTitle="ISO 9001:2015"
       leftText="International quality management standards adhered across processes."
       leftLinkHref="#"
-      leftLinkLabel="Learn More →"
+      {{-- leftLinkLabel="Learn More →" --}}
       rightQuote="Being recognized by DPIIT and Startup India motivates us to push the boundaries of sustainable innovation."
       rightAuthor="MJ Greens"
       rightMeta="Accredited"
@@ -53,17 +54,12 @@
 
     <section class="container mx-auto px-6 lg:px-20">
         
-        <div class="text-center mb-16 md:mb-24">
+        <div class="text-center mb-16 md:mb-18">
             <span class="text-green-600 font-bold uppercase tracking-[0.2em] text-xs mb-3 block">
                 Accreditation
             </span>
 
-<h2 class="text-3xl md:text-5xl font-extrabold mb-6">
-        Certificate <span class="text-green-600">of Registration</span>
-      </h2>
-
-
-
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-6">Certificate <span class="text-green-600">of Registration</span></h2>
 
             {{-- <h2 class="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
                 Certificate of Registration
@@ -77,8 +73,8 @@
                 <div class="relative">
                     <div class="absolute -inset-4 bg-gradient-to-tr from-green-100 to-blue-50 rounded-[2rem] blur-2xl opacity-50 group-hover:opacity-80 transition duration-500"></div>
                     
-                    <div class="relative glass-card premium-shadow rounded-[1.5rem] p-4 md:p-8 transform transition duration-500 hover:-translate-y-3 hover:rotate-1">
-                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=800&auto=format&fit=crop" 
+                    <div class="relative glass-card premium-shadow rounded-[1.5rem] p-4 md:p-8 transform transition duration-500 ">
+                        <img src="{{ asset('assits/certificate.png') }}" 
                              alt="Registration Certificate" 
                              class="w-full h-auto rounded-lg shadow-inner grayscale-[20%] group-hover:grayscale-0 transition duration-500">
                         

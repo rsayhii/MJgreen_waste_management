@@ -9,6 +9,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <style>
         body { font-family: 'Inter', sans-serif; background-color: #fcfcfc; }
         .hero-container { border-radius: 3rem; overflow: hidden; }
@@ -89,8 +92,8 @@
         }
     </style>
 </head>
-<body class="p-6">
-    <section class="hero-container relative h-[90vh] min-h-[700px] w-full bg-slate-900 shadow-2xl">
+<body class="p-4 md:p-6">
+    <section class="hero-container relative min-h-screen md:h-[90vh] md:min-h-[700px] w-full bg-slate-900 shadow-2xl flex flex-col">
         
         <div class="parallax-bg absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1715940309860-585403114687?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
@@ -99,19 +102,19 @@
             <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60"></div>
         </div>
 
-        <div class="absolute top-6 left-6 right-6">
-        <x-header />
-    </div>
+        <div class="absolute top-4 left-4 right-4 md:top-6 md:left-6 md:right-6">
+            <x-header />
+        </div>
 
-        <div class="relative z-10 flex flex-col items-center justify-center text-center px-6 mt-12 md:mt-20">
-            <h1 class="hero-title text-5xl md:text-7xl font-bold text-white leading-tight">
-                Cultivating The Green Diversity<br>By Making Greener INDIA
-            </h1>
-            <p class="hero-subtitle text-white/80 max-w-xl mt-6 text-sm md:text-base leading-relaxed">
-                MJGREENS is one of the top Waste Management Companies in India. We provide sustainable and responsible waste management solutions for large generators of waste, such as corporate parks, universities, houses, etc.
+        <div class="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-4 pt-32 pb-20 md:py-0">
+            <h3 class="hero-title text-3xl sm:text-5xl md:text-7xl font-bold text-white leading-tight">
+                Cultivating The Green Diversity<br class="hidden sm:block">By Making Greener INDIA
+            </h3>
+            <p class="hero-subtitle text-white/80 max-w-xl mt-4 md:mt-6 text-xs sm:text-sm md:text-base leading-relaxed px-2">
+                MJGREENS is one of the top Waste Management Companies in India. We provide sustainable and responsible waste management solutions for large generators of waste.
             </p>
             
-            <button class="hero-btn mt-10 bg-white text-black px-8 py-4 rounded-full flex items-center gap-3 font-bold group transition-all hover:pr-10">
+            <button class="hero-btn mt-8 md:mt-10 bg-white text-black px-6 py-3 md:px-8 md:py-4 rounded-full flex items-center gap-3 font-bold group transition-all hover:pr-10">
                 Learn More
                 <div class="bg-black text-white p-1 rounded-full group-hover:translate-x-1 transition-transform">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -121,91 +124,78 @@
             </button>
         </div>
 
-        <div class="absolute bottom-10 left-0 w-full px-8 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-6 z-20">
-            <div class="glass-card p-5 rounded-3xl flex gap-4 items-center">
+        <div class="relative md:absolute md:bottom-10 left-0 w-full px-4 sm:px-8 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 z-20 pb-10 md:pb-0">
+            <div class="glass-card p-4 md:p-5 rounded-3xl flex gap-4 items-center">
                 <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=200" 
-                     class="w-24 h-24 object-cover rounded-2xl" alt="Tree planting">
+                     class="w-16 h-16 md:w-24 md:h-24 object-cover rounded-2xl" alt="Tree planting">
                 <div>
-                    <h3 class="text-white font-bold text-lg leading-tight">Tree Planting Program</h3>
-                    <p class="text-white/60 text-xs mt-1 leading-normal">For every purchase, we contribute to reforestation projects across Indonesia.</p>
-                    <a href="#" class="text-white text-xs mt-3 inline-block font-semibold hover:underline">Read More →</a>
+                    <h3 class="text-white font-bold text-base md:text-lg leading-tight">Tree Planting Program</h3>
+                    <p class="text-white/60 text-[10px] md:text-xs mt-1 leading-normal">For every purchase, we contribute to reforestation projects across Indonesia.</p>
                 </div>
             </div>
 
-            <div class="glass-card p-6 rounded-3xl">
-                <p class="text-white/80 text-sm italic leading-relaxed">
+            <div class="glass-card p-4 md:p-6 rounded-3xl flex flex-col justify-between">
+                <p class="text-white/80 text-xs md:text-sm italic leading-relaxed mb-4">
                     "I appreciate how transparent Greenset is about their sourcing and environmental impact. I feel like I'm part of something bigger every time I contribute here."
                 </p>
-                <div class="flex items-center gap-3 mt-4">
-                    <img src="https://i.pravatar.cc/150?u=daniel" class="w-10 h-10 rounded-full border border-white/20" alt="Daniel">
-                    <div>
-                        <h4 class="text-white font-bold text-sm">Daniel</h4>
-                        <p class="text-white/40 text-[10px] uppercase tracking-wider">NGO Volunteer, Surabaya</p>
+                <div class="flex flex-wrap items-center justify-between gap-4">
+                    <div class="flex items-center gap-3">
+                        <img src="https://i.pravatar.cc/150?u=daniel" class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-white/20" alt="Daniel">
+                        <div>
+                            <h4 class="text-white font-bold text-xs md:text-sm">Daniel</h4>
+                            <p class="text-white/40 text-[8px] md:text-[10px] uppercase tracking-wider">NGO Volunteer, Surabaya</p>
+                        </div>
                     </div>
 
-                    <div class="flex items-center gap-4 group">
-                        <div class="w-[3em] h-[3em] rounded-full border border-white/20 
+                    <div class="flex items-center gap-3 group bg-white/5 py-2 px-4 rounded-full border border-white/10">
+                        <div class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-white/20 
                                     flex items-center justify-center 
-                                    transition-colors group-hover:bg-white/10">
-                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    transition-colors group-hover:bg-white/10 flex-shrink-0">
+                            <svg class="w-4 h-4 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                       d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
                             </svg>
                         </div>
-                        <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
+                        <span class="text-white font-semibold uppercase tracking-wider text-[10px] md:text-xs">
                             Dignified and safe employment
                         </span>
                     </div>
-
-                    <!-- <div class="flex items-center gap-4 group">
-                        <div class="w-[3em] h-[3em] rounded-full border border-white/20 
-                                    flex items-center justify-center 
-                                    transition-colors group-hover:bg-white/10">
-                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                      d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-                            </svg>
-                        </div>
-                        <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
-                            Professional Team
-                        </span>
-                    </div> -->
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-start justify-between gap-8">
-        <div class="bg-slate-100 px-4 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-500">
+    <div id="intro-section" class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-start justify-between gap-8 overflow-hidden">
+        <div class="intro-badge bg-slate-100 px-4 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-500">
             • Built for a Better Tomorrow
         </div>
-        <h2 class="text-3xl md:text-5xl font-medium text-slate-800 max-w-3xl leading-tight">
+        <h2 class="intro-text text-3xl md:text-5xl font-medium text-slate-800 max-w-3xl leading-tight">
             Started as a small eco initiative, now growing <span class="text-slate-400">into a movement of conscious consumers.</span>
         </h2>
     </div>
 
-    <section class="relative w-full">
+    <section class="relative w-full overflow-hidden px-4 sm:px-6">
         
-        <div class="flex items-center justify-between mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-[#1a1a1a]">What we do ?</h2>
+        <div class="flex items-center justify-between mb-8 md:mb-12">
+            <h2 class="text-2xl md:text-4xl font-bold text-[#1a1a1a]">What we do ?</h2>
             
-            <div class="flex gap-3">
-                <button class="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 transition-colors group">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div class="flex gap-2 md:gap-3">
+                <button id="owl-prev" class="w-10 h-10 md:w-12 md:h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 transition-colors group">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 md:w-5 md:h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
                 </button>
-                <button class="w-12 h-12 rounded-full bg-[#1a1a1a] flex items-center justify-center hover:bg-black transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <button id="owl-next" class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#1a1a1a] flex items-center justify-center hover:bg-black transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 md:w-5 md:h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                     </svg>
                 </button>
             </div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="owl-carousel owl-theme what-we-do-carousel">
             
-            <div class="group cursor-pointer">
+            <div class="item group cursor-pointer">
                 <div class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5">
                     <span class="absolute top-4 left-4 z-10 text-white font-semibold text-lg opacity-90">01</span>
                     <img src="https://wordpress.zozothemes.com/wastbin/wp-content/uploads/sites/37/2025/03/blog-image2-1170x694.webp" 
@@ -218,7 +208,7 @@
                 </p>
             </div>
 
-            <div class="group cursor-pointer">
+            <div class="item group cursor-pointer">
                 <div class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5">
                     <span class="absolute top-4 left-4 z-10 text-white font-semibold text-lg opacity-90">02</span>
                     <img src="https://wordpress.zozothemes.com/wastbin/wp-content/uploads/sites/37/elementor/thumbs/group-volunteers-collecting-garbage-rga1g7u9rs7qx9pzt7plsmt4eo8oivie2pspczl9ec.webp" 
@@ -231,7 +221,7 @@
                 </p>
             </div>
 
-            <div class="group cursor-pointer">
+            <div class="item group cursor-pointer">
                 <div class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5">
                     <span class="absolute top-4 left-4 z-10 text-white font-semibold text-lg opacity-90">03</span>
                     <img src="https://wordpress.zozothemes.com/wastbin/wp-content/uploads/sites/37/2025/03/blog-image7-1170x694.webp" 
@@ -244,7 +234,7 @@
                 </p>
             </div>
 
-            <div class="group cursor-pointer">
+            <div class="item group cursor-pointer">
                 <div class="relative overflow-hidden rounded-2xl aspect-[4/3] mb-5">
                     <span class="absolute top-4 left-4 z-10 text-white font-semibold text-lg opacity-90">04</span>
                     <img src="https://wordpress.zozothemes.com/wastbin/wp-content/uploads/sites/37/2025/01/waste-and-disposal-services-teams.webp" 
@@ -261,35 +251,35 @@
     </section>
 
     <section class="max-w-7xl mx-auto px-6 py-24">
-        <div class="text-center mb-16 reveal-header">
-            <span class="text-gray-500 font-medium text-sm tracking-wide uppercase">More Energy More Savings</span>
-            <h2 class="text-4xl md:text-5xl font-extrabold mt-3 leading-tight">
-                Experience the future<br>of Solar Power.
+        <div class="text-center mb-12 md:mb-16 reveal-header">
+            <span class="text-gray-500 font-medium text-xs md:text-sm tracking-wide uppercase">More Energy More Savings</span>
+            <h2 class="text-3xl md:text-5xl font-extrabold mt-3 leading-tight px-4">
+                Experience the future<br class="hidden md:block"> of Solar Power.
             </h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
 
-            <div class="feature-card relative group h-[500px] 
+            <div class="feature-card relative group h-[400px] md:h-[500px] 
                 rounded-[32px] overflow-hidden shadow-sm 
-                lg:col-span-2">
+                md:col-span-2">
 
                 <img src="https://wordpress.zozothemes.com/wastbin/wp-content/uploads/sites/37/2025/03/blog-image05-1170x694.webp" 
                      class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                      alt="Solar Landscape">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 
-                <div class="absolute inset-0 p-8 flex flex-col justify-between z-10">
-                    <h3 class="text-white text-2xl font-bold leading-tight max-w-[200px]">
+                <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-between z-10">
+                    <h3 class="text-white text-xl md:text-2xl font-bold leading-tight max-w-[200px]">
                         Making Everything From Nirosolar
                     </h3>
                     
                     <div class="flex justify-between items-end">
                         <div>
-                            <p class="text-gray-300 text-sm mb-1 font-medium">Saving-</p>
-                            <p class="text-white text-3xl font-extrabold">610 kv</p>
+                            <p class="text-gray-300 text-xs md:text-sm mb-1 font-medium">Saving-</p>
+                            <p class="text-white text-2xl md:text-3xl font-extrabold">610 kv</p>
                         </div>
-                        <div class="relative w-24 h-24">
+                        <div class="relative w-20 h-20 md:w-24 md:h-24">
                             <svg class="w-full h-full" viewBox="0 0 100 100">
                                 <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" class="text-white/20" />
                                 <circle cx="50" cy="50" r="40" stroke="currentColor" stroke-width="8" fill="transparent" class="text-white" 
@@ -303,34 +293,34 @@
                 </div>
             </div>
 
-            <div class="feature-card bg-[#f3f4f6] p-10 rounded-[32px] 
+            <div class="feature-card bg-[#f3f4f6] p-8 md:p-10 rounded-[32px] 
                 flex flex-col transition-all duration-300 
                 hover:-translate-y-2 hover:shadow-xl 
-                lg:col-span-1">
+                md:col-span-1">
 
-                <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm mb-12">
+                <div class="w-12 h-12 md:w-14 md:h-14 bg-white rounded-full flex items-center justify-center shadow-sm mb-8 md:mb-12">
                     <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707.707M12 7a5 5 0 100 10 5 5 0 000-10z" />
                     </svg>
                 </div>
-                <h3 class="text-2xl font-bold mb-8 leading-tight">Solar Energy Best Production</h3>
-                <p class="text-gray-500 leading-relaxed">
+                <h3 class="text-xl md:text-2xl font-bold mb-4 md:mb-8 leading-tight">Solar Energy Best Production</h3>
+                <p class="text-gray-500 text-sm md:text-base leading-relaxed">
                     Solar energy is the radiant light and heat emitted by the sun, harnessed through various technologies to generate electricity or heat. It's a renewable energy source, meaning it won't run out as long as the sun shines, making it more.
                 </p>
             </div>
 
-            <div class="feature-card bg-[#f3f4f6] p-10 rounded-[32px] 
+            <div class="feature-card bg-[#f3f4f6] p-8 md:p-10 rounded-[32px] 
                 flex flex-col transition-all duration-300 
                 hover:-translate-y-2 hover:shadow-xl 
-                lg:col-span-1">
+                md:col-span-1">
 
-                <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm mb-12">
+                <div class="w-12 h-12 md:w-14 md:h-14 bg-white rounded-full flex items-center justify-center shadow-sm mb-8 md:mb-12">
                     <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                     </svg>
                 </div>
-                <h3 class="text-2xl font-bold mb-8 leading-tight">We Are Building Better Future</h3>
-                <p class="text-gray-500 leading-relaxed">
+                <h3 class="text-xl md:text-2xl font-bold mb-4 md:mb-8 leading-tight">We Are Building Better Future</h3>
+                <p class="text-gray-500 text-sm md:text-base leading-relaxed">
                     Solar energy is the radiant light and heat emitted by the sun, harnessed through various technologies to generate electricity or heat. It's a renewable energy source, meaning it won't run out as long as the sun shines, making it more.
                 </p>
             </div>
@@ -338,19 +328,19 @@
         </div>
     </section>
 
-    <section id="wm-hero" class="relative w-full pt-16 md:pt-24">
+    <section id="wm-hero" class="relative w-full pt-16 md:pt-24 overflow-hidden">
         
-        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-12 items-start -mb-[12em]">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-12 items-start lg:-mb-[12em]">
             
-            <div class="wm-reveal-left w-[40em]">
+            <div class="wm-reveal-left w-full lg:w-[40em]">
                 <div class="flex items-center gap-2 mb-4">
                     <svg class="w-5 h-5 wm-green-accent" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M17,8C15.34,8 14,9.34 14,11V13H16.15L15.42,15.65C15.22,16.4 15.68,17.16 16.43,17.36C16.5,17.38 16.57,17.39 16.64,17.39C17.26,17.39 17.8,16.96 17.94,16.35L19,12.43V11C19,9.34 17.66,8 17,8M10,8C8.34,8 7,9.34 7,11V13H9.15L8.42,15.65C8.22,16.4 8.68,17.16 9.43,17.36C9.5,17.38 9.57,17.39 9.64,17.39C10.26,17.39 10.8,16.96 10.94,16.35L12,12.43V11C12,9.34 10.66,8 10,8Z" />
                     </svg>
                     <span class="wm-green-accent font-extrabold text-xs uppercase tracking-widest">Solutions</span>
                 </div>
-                <h1 class="text-5xl md:text-5xl font-extrabold text-[#1a1a1a] leading-[1.1] mb-10">
-                    Bins That Transform<br>Public Spaces
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#1a1a1a] leading-[1.1] mb-8 md:mb-10">
+                    Bins That Transform<br class="hidden md:block"> Public Spaces
                 </h1>
                 <button class="wm-bg-accent hover:opacity-90 text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 transition-transform hover:scale-105">
                     EXPLORE SOLUTIONS 
@@ -358,102 +348,102 @@
                 </button>
             </div>
 
-            <div></div>
+            <div class="hidden lg:block"></div>
 
-            <div class="wm-reveal-right lg:pl-20">
+            <div class="wm-reveal-right lg:pl-10 xl:pl-20">
                 <div class="mb-6">
-                    <svg class="w-14 h-14 wm-green-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg class="w-12 h-12 md:w-14 md:h-14 wm-green-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                     </svg>
                 </div>
-                <p class="text-gray-500 text-lg italic leading-relaxed mb-8">
+                <p class="text-gray-500 text-base md:text-lg italic leading-relaxed mb-8">
                     Transform public spaces with innovative waste bins cleanliness.
                 </p>
                 <div class="h-[1px] bg-gray-200 w-full mb-8"></div>
                 <div class="flex items-center gap-4">
-                    <div class="flex -space-x-4">
-                        <img src="https://i.pravatar.cc/100?u=1" class="w-12 h-12 rounded-full border-4 border-white object-cover" alt="User">
-                        <img src="https://i.pravatar.cc/100?u=2" class="w-12 h-12 rounded-full border-4 border-white object-cover" alt="User">
-                        <img src="https://i.pravatar.cc/100?u=3" class="w-12 h-12 rounded-full border-4 border-white object-cover" alt="User">
+                    <div class="flex -space-x-3 md:-space-x-4">
+                        <img src="https://i.pravatar.cc/100?u=1" class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 md:border-4 border-white object-cover" alt="User">
+                        <img src="https://i.pravatar.cc/100?u=2" class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 md:border-4 border-white object-cover" alt="User">
+                        <img src="https://i.pravatar.cc/100?u=3" class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 md:border-4 border-white object-cover" alt="User">
                     </div>
-                    <span class="text-3xl font-extrabold text-[#062d24]">2.3k+</span>
+                    <span class="text-2xl md:text-3xl font-extrabold text-[#062d24]">2.3k+</span>
                 </div>
             </div>
         </div>
 
-        <div class="relative w-full flex justify-center z-30">
-            <div id="wm-truck-container" class="w-full max-w-2xl px-6 -mb-48 md:-mb-31">
-                <img src="https://wordpress.zozothemes.com/wastbin/wp-content/uploads/sites/37/2025/03/truck-img.webp" 
+        <div class="relative w-full flex justify-center z-30 mt-8 md:mt-12 lg:mt-0">
+            <div id="wm-truck-container" class="w-full max-w-2xl px-4 md:px-6 -mb-12 md:-mb-32 lg:-mb-48 scale-100 md:scale-110 lg:scale-[1.2]">
+                <img src="{{ asset('assits/truck.png') }}" 
                      alt="Waste Collection Truck" 
                      class="w-full h-auto drop-shadow-2xl">
             </div>
         </div>
 
-        <div class="wm-dark-panel w-full pt-[13em] pb-10 px-6 rounded-[40px] relative z-10">
+        <div class="wm-dark-panel w-full pt-[4em] sm:pt-[6em] md:pt-[8em] pb-10 px-4 md:px-6 rounded-[30px] md:rounded-[40px] relative z-10">
             <div class="max-w-7xl mx-auto">
-                <h2 class="text-white text-3xl md:text-4xl font-bold text-center mb-5 max-w-3xl mx-auto leading-tight">
+                <h2 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-6 md:mb-8 max-w-3xl mx-auto leading-tight">
                     OUR STRENGTHS
                 </h2>
 
-                <p class="text-white/80 text-center mb-12 max-w-4xl mx-auto">
+                <p class="text-white/80 text-center mb-12 md:mb-16 max-w-4xl mx-auto text-sm md:text-base">
                     With wide experience and proven expertise in major infrastructure projects, MJgreens is the best Waste Management Company in the country.
                 </p>
 
-                <div class="grid grid-cols-2 lg:grid-cols-4 gap-12" id="wm-feature-row">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12" id="wm-feature-row">
 
                     <div class="flex items-center gap-4 group">
-                        <div class="w-[3em] h-[3em] rounded-full border border-white/20 
+                        <div class="w-12 h-12 md:w-[3em] md:h-[3em] rounded-full border border-white/20 
                                     flex items-center justify-center 
-                                    transition-colors group-hover:bg-white/10">
+                                    transition-colors group-hover:bg-white/10 flex-shrink-0">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                       d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
                             </svg>
                         </div>
-                        <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
+                        <span class="text-white font-semibold uppercase tracking-wider text-xs md:text-sm">
                             Domain expertise
                         </span>
                     </div>
 
                     <div class="flex items-center gap-4 group">
-                        <div class="w-[3em] h-[3em] rounded-full border border-white/20 
+                        <div class="w-12 h-12 md:w-[3em] md:h-[3em] rounded-full border border-white/20 
                                     flex items-center justify-center 
-                                    transition-colors group-hover:bg-white/10">
+                                    transition-colors group-hover:bg-white/10 flex-shrink-0">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                       d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
                             </svg>
                         </div>
-                        <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
+                        <span class="text-white font-semibold uppercase tracking-wider text-xs md:text-sm">
                             Fully Compliant
                         </span>
                     </div>
 
                     <div class="flex items-center gap-4 group">
-                        <div class="w-[3em] h-[3em] rounded-full border border-white/20 
+                        <div class="w-12 h-12 md:w-[3em] md:h-[3em] rounded-full border border-white/20 
                                     flex items-center justify-center 
-                                    transition-colors group-hover:bg-white/10">
+                                    transition-colors group-hover:bg-white/10 flex-shrink-0">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                       d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
                             </svg>
                         </div>
-                        <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
+                        <span class="text-white font-semibold uppercase tracking-wider text-xs md:text-sm">
                             Transparency
                         </span>
                     </div>
 
                     <div class="flex items-center gap-4 group">
-                        <div class="w-[3em] h-[3em] rounded-full border border-white/20 
+                        <div class="w-12 h-12 md:w-[3em] md:h-[3em] rounded-full border border-white/20 
                                     flex items-center justify-center 
-                                    transition-colors group-hover:bg-white/10">
+                                    transition-colors group-hover:bg-white/10 flex-shrink-0">
                             <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                                       d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37a1.724 1.724 0 002.572-1.065z"/>
                                 <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
                             </svg>
                         </div>
-                        <span class="text-white font-semibold uppercase tracking-wider text-sm whitespace-nowrap">
+                        <span class="text-white font-semibold uppercase tracking-wider text-xs md:text-sm">
                             Multiple waste streams
                         </span>
                     </div>
@@ -485,7 +475,7 @@
 
                 <div class="flex items-end justify-between border-t border-gray-200 pt-8">
                     <div id="author-block" class="flex items-center gap-4 fade-in">
-                        <img id="author-img" src="https://i.pravatar.cc/150?u=john" alt="John Alex" class="w-14 h-14 rounded-full object-cover">
+                        <img id="author-img" src="https://i.pravatar.cc/150?u=anjali" alt="John Alex" class="w-14 h-14 rounded-full object-cover">
                         <div>
                             <h4 id="author-name" class="font-bold text-gray-900">John Alex</h4>
                             <p id="author-role" class="text-sm text-gray-500">Business Owner</p>
@@ -652,7 +642,7 @@ We follow responsible waste segregation, recycling, composting, and safe disposa
         </div>
     </section>
 
-    <section class="hero-gradient relative overflow-visible rounded-[3rem]">
+    <section class="hero-gradient relative overflow-visible rounded-[3rem] mb-12 md:mb-8">
         <div class="container mx-auto px-6 lg:px-20 pt-20 pb-0 flex flex-col md:flex-row items-center justify-between relative">
             
             <div class="md:w-1/2 mb-12 md:mb-20 z-10">
@@ -663,9 +653,9 @@ We follow responsible waste segregation, recycling, composting, and safe disposa
                 <p class="text-gray-300 text-sm md:text-base max-w-md mb-8 leading-relaxed">
                    Partner with MJGreen to manage your waste responsibly. From regular pickups to advanced recycling services, we make it easy to keep your surroundings clean and green.
                 </p>
-                <button class="bg-accent hover:bg-white text-black font-semibold py-3 px-8 rounded-full transition duration-300">
+                <a href="{{ route('contact') }}" class="inline-block bg-accent text-black px-6 py-2 rounded-full mt-2 text-sm font-semibold hover:underline">
                     Contact Now
-                </button>
+                </a>
             </div>
 
             <div class="worker-container">
@@ -679,9 +669,44 @@ We follow responsible waste segregation, recycling, composting, and safe disposa
         </div>
     </section>
 
-    <x-footer />
+   <div class="scale-[1.03] transform">
+        <x-footer />
+    </div>
+
+    <!-- Owl Carousel Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
+        $(document).ready(function(){
+            const owl = $('.what-we-do-carousel');
+            owl.owlCarousel({
+                loop: true,
+                margin: 24,
+                nav: false,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    640: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 4
+                    }
+                }
+            });
+
+            // Custom Navigation
+            $('#owl-prev').click(function() {
+                owl.trigger('prev.owl.carousel');
+            });
+            $('#owl-next').click(function() {
+                owl.trigger('next.owl.carousel');
+            });
+        });
+
         // ========================================
         // HERO SECTION ANIMATIONS
         // ========================================
@@ -813,6 +838,29 @@ We follow responsible waste segregation, recycling, composting, and safe disposa
                   stagger: 0.2, 
                   duration: 0.8 
               }, "-=0.5");
+
+            // ========================================
+            // INTRO SECTION ANIMATION
+            // ========================================
+            gsap.from(".intro-badge", {
+                x: -50,
+                opacity: 0,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: "#intro-section",
+                    start: "top 85%",
+                }
+            });
+
+            gsap.from(".intro-text", {
+                y: 40,
+                opacity: 0,
+                duration: 1.2,
+                scrollTrigger: {
+                    trigger: "#intro-section",
+                    start: "top 80%",
+                }
+            });
         });
     </script>
 </body>

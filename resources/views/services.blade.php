@@ -45,11 +45,12 @@
 </style>
 </head>
 <body>
+  
 <x-hero 
   title="Our Services"
   subtitle="Innovative, reliable environmental solutions for communities and businesses — from waste management to eco infrastructure."
   bg="https://images.unsplash.com/photo-1715940309860-585403114687?q=80&w=1170&auto=format&fit=crop"
-  leftImage="https://images.unsplash.com/photo-1604186838309-c6715f0d3e6c?auto=format&fit=crop&w=200&q=80"
+  leftImage="https://images.pexels.com/photos/2682683/pexels-photo-2682683.jpeg"
   leftTitle="Smart Waste Solutions"
   leftText="Efficient collection, sorting, and recycling systems tailored to your needs."
   leftLinkHref="#"
@@ -95,9 +96,9 @@
         <p class="text-gray-600 text-sm mb-6">
          As India's leading provider of professional decentralized Waste Management solutions, MJGREENS is a pioneer in this field. As a professional waste management company, MJGREENS has developed a good understanding of how to steer residential outfits towards establishing good waste management solutions. Coordinating with all stakeholders, including resident welfare associations, property managers, volunteer residents, housekeeping teams, and maintenance teams, is a must.
         </p>
-        <button class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
+        <a href="{{ route('contact') }}" class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
           →
-        </button>
+        </a>
       </div>
 
       <!-- Card 2 -->
@@ -118,9 +119,9 @@
           Recent decades have seen a boom in the construction industry due to the rapid increase in population and urbanization. Indian construction and demolition waste was estimated to be 50 million tons in 2013 by the Center of Science and Environment (CSE). In 2020, it is estimated that the number will reach 287 million tons per year.
 As part of the holistic waste management solutions offered by MJGREENS, the company has taken proactive steps towards adopting the Construction and Demolition Waste Management Rules, 2019.
         </p>
-        <button class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
+        <a href="{{ route('contact') }}" class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
           →
-        </button>
+        </a>
       </div>
 
       <!-- Card 3 -->
@@ -140,9 +141,9 @@ As part of the holistic waste management solutions offered by MJGREENS, the comp
           The MRF operated by MJGREENS is one of the biggest in Karnataka. Waste management through MRF represents the future in India. It is a completely resource-recovery factory that uses mechanization to process dry waste. We want to move closer to a circular economy and achieve the global goals surrounding sustainable development.
 The categories are initially categorized into 20 groupings, then compacted and shipped to authorized end destinations. In recycling plants, waste is transformed into products like stationery, chipboards, and T-shirts.
         </p>
-        <button class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
+        <a href="{{ route('contact') }}" class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
           →
-        </button>
+        </a>
       </div>
 
       <!-- Card 4 -->
@@ -163,9 +164,9 @@ The categories are initially categorized into 20 groupings, then compacted and s
 <li>          • Through Portable/ Static Compactors </li>
 <li>          • Hook Loaders</li>
         </ul>
-        <button class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
+        <a href="{{ route('contact') }}" class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
           →
-        </button>
+        </a>
       </div>
 
       <!-- Card 5 -->
@@ -184,9 +185,9 @@ The categories are initially categorized into 20 groupings, then compacted and s
         <li>• Reclamation of Land</li>
         <li>• Sustainable Solution</li>
     </ul>
-        <button class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
+        <a href="{{ route('contact') }}" class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
           →
-        </button>
+        </a>
       </div>
 
       <!-- Card 6 -->
@@ -202,14 +203,14 @@ The categories are initially categorized into 20 groupings, then compacted and s
         </div>
         <h3 class="text-lg font-bold text-gray-900 mb-3">Mechanical Sweeping</h3>
         <ul class="text-gray-600 text-sm mb-6">
-        <li>  • Very Low Operating Cost</li>
-<li>• Machines used which are best in the industry</li>
-<li>• Efficient in heavy sweeping condition</li>
-<li>• Remove packed dirt on uneven roads</li>
+            <li>• Very Low Operating Cost</li>
+            <li>• Machines used which are best in the industry</li>
+            <li>• Efficient in heavy sweeping condition</li>
+            <li>• Remove packed dirt on uneven roads</li>
         </ul>
-        <button class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
+        <a href="{{ route('contact') }}" class="w-10 h-10 mx-auto rounded-full border border-gray-300 flex items-center justify-center hover:bg-green-600 hover:text-white transition">
           →
-        </button>
+        </a>
       </div>
 
     </div>
@@ -274,9 +275,9 @@ The categories are initially categorized into 20 groupings, then compacted and s
         </div>
 
         <!-- Button -->
-        <button class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-full transition">
+        <a href="{{ route('contact') }}" class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-full transition">
           Contact Us
-        </button>
+        </a>
 
       </div>
 

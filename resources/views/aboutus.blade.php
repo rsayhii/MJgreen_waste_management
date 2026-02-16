@@ -35,19 +35,19 @@
         /**/
     </style>
 </head>
-<body >
+<body class="p-0 ">
 <main class="flex-1">
 <x-hero 
   title="About MJ Greens"
   subtitle="Cultivating The Green Diversity By Making Greener INDIA. We provide sustainable and responsible waste management solutions for large generators of waste."
-  bg="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80"
-  leftImage="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=200"
+  bg="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&q=80&w=2000"
+  leftImage="https://plus.unsplash.com/premium_photo-1663091022660-8fa0fd744fed?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHx3YXN0ZSUyMG1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D"
   leftTitle="Waste Management Excellence"
   leftText="We offer sustainable and responsible waste management solutions for corporate parks, universities, and residential communities."
-  leftLinkHref="#"
-  leftLinkLabel="Our Services →"
   rightQuote="MJ Greens is the best Waste Management Company in the country with proven expertise in major infrastructure projects."
   rightAuthor="MJ Greens Team"
+  rightAuthorImage="https://i.pravatar.cc/150?u=team"
+  rightMeta="MJ GREENS TEAM"
 />
 
 
@@ -107,7 +107,7 @@
 
 {{-----------------------------------------Feature Section Start ----------------------------------------}}
 <!-- Features Section Start -->
-<section class="py-12 md:py-16">
+<section class="pt-12 md:pt-16 pb-0">
   <div class="max-w-7xl mx-auto px-6 lg:px-12">
     
     <div class="flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-gray-200">
@@ -175,7 +175,7 @@
 
 {{-----------------------------------------Waste Management Steps Section Start ----------------------------------------}}
 <!-- Section Start -->
-<section class="py-16 md:py-24 bg-white">
+<section class=" py-24 bg-white">
   <div class="max-w-7xl mx-auto px-6 lg:px-12">
 
     <!-- Heading -->
@@ -399,7 +399,7 @@
       <div class="absolute bottom-8 left-8 bg-orange-500 text-white p-6 rounded-2xl shadow-xl max-w-xs flex gap-4 items-start">
         
         <!-- Icon -->
-        <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
+        <div class="w-24 h-12 bg-white/20 rounded-full flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M3 12h3l3 8 4-16 3 8h5"/>
@@ -411,9 +411,9 @@
           <p class="text-sm leading-relaxed mb-2">
             We transform waste into sustainable resources through innovative recycling systems.
           </p>
-          <a href="{{ route('about-us') }}" class="inline-flex items-center text-sm font-semibold">
+          <!-- <a href="{{ route('about-us') }}" class="inline-flex items-center text-sm font-semibold">
             Learn More →
-          </a>
+          </a> -->
         </div>
 
       </div>
